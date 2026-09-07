@@ -1,0 +1,324 @@
+[
+  {
+    "name": "1664",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8104722_A_BIERE_BLOND_1664_5_5_CAN_50CL_BOX_240.png",
+    "source": "https://www.supergroup.fr/biere-blonde-1664-5-5-canette-50-cl-box-240-1664-bieres-blondes-ref-8104722.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/1664.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "7up-cherry",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8064556_A_SEVEN_UP_CHERRY_SLIM_CAN_33CL24.png",
+    "source": "https://www.supergroup.fr/7up-cherry-canette-slim-33-cl-24-seven-up-lime-tonic-ref-8064556.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/7up-cherry.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "bic",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8002203_A_BRQ-BIC-J26-UNI.png",
+    "source": "https://www.supergroup.fr/briquets-j26-uni-bic-50-bic-ref-8002203.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/bic.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "coca-cola",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8028015_A.png",
+    "source": "https://www.supergroup.fr/coca-cola-sans-sucres-can-33-cl-coca-cola-cola-ref-8028015.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/coca-cola.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "curly",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8017944_A.png",
+    "source": "https://www.supergroup.fr/extrudes-cacahuetes-curly-sachet-60g-30-curly-ref-8017944.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/curly.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "desperados",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8000572_A_BIERE-BLOND-DESPE-59-CAN-50CL24.png",
+    "source": "https://www.supergroup.fr/biere-desperados-originale-aromatisee-agave-canette-50cl-24-desperados-bieres-aromatisees-ref-8000572.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/desperados.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "heineken",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8000586_A_BIERE-BLOND-HEINEKEN-5-CAN-50CL24.png",
+    "source": "https://www.supergroup.fr/biere-blonde-heineken-5-canette-50cl-24-heineken-bieres-blondes-ref-8000586.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/heineken.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "lays",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8112021_A.png",
+    "source": "https://www.supergroup.fr/chips-lays-nature-130g-10-lays-chips-natures-ref-8112021.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/lays.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "lipton",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8063665_A.png",
+    "source": "https://www.supergroup.fr/lipton-r-ice-tea-peche-canette-slim-33-cl-24-lipton-the-glaces-ref-8063665.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/lipton.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "mars",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8106550_A.png",
+    "source": "https://www.supergroup.fr/mars-barre-choco-51g-40-mars-ref-8106550.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/mars.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "oasis-tropical",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8110553_A.png",
+    "source": "https://www.supergroup.fr/oasis-tropical-slim-can-33cl-24-oasis-boissons-aux-fruits-gazeuse-ref-8110553.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/oasis-tropical.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "oasis-pomme",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8043732_A.png",
+    "source": "https://www.supergroup.fr/oasis-one-piece-pom-cass-framb-slim-can-33cl-24-oasis-boissons-aux-fruits-plate-ref-8043732.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/oasis-pomme.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "ocb-slim",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8001118_A_PAP-CIG-OCB-PREMIUM-SLIM.png",
+    "source": "https://www.supergroup.fr/papier-cigarette-premium-slim-ocb-50-ocb-papiers-slim-long-ref-8001118.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/ocb-slim.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "ocb",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8104086_A_PAP-CIG-OCB-PREMIUM-DOUBLE50.png",
+    "source": "https://www.supergroup.fr/papier-cigarette-premium-double-ocb-50-ocb-papiers-court-ref-8104086.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/ocb.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "orangina",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8110551_A.png",
+    "source": "https://www.supergroup.fr/soda-a-lorange-orangina-slim-can-33cl-24-orangina-boissons-aux-fruits-gazeuse-ref-8110551.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/orangina.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "pepsi",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8064551_A.png",
+    "source": "https://www.supergroup.fr/pepsi-canette-slim-33cl-24-pepsi-cola-ref-8064551.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/pepsi.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "pringles-creme-oignon",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8019847_A.png",
+    "source": "https://www.supergroup.fr/tuiles-creme-oignons-pringles-boite-40g-12-pringles-tuiles-ref-8019847.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/pringles-creme-oignon.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "pringles-paprika",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8094142_A.png",
+    "source": "https://www.supergroup.fr/tuiles-paprika-pringles-boite-40g-12-pringles-tuiles-ref-8094142.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/pringles-paprika.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "pringles-hot-spicy",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8019845_A.png",
+    "source": "https://www.supergroup.fr/tuiles-hot-spicy-pringles-boite-40g-12-pringles-tuiles-ref-8019845.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/pringles-hot-spicy.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "schweppes",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8110552_A.png",
+    "source": "https://www.supergroup.fr/soda-schweppes-saveur-agrumes-slim-can-33cl-24-schweppes-boissons-aux-fruits-gazeuse-ref-8110552.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/schweppes.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "snickers",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8001900_A_SNICKERS-2-PACK-BARRE-75G-24.png",
+    "source": "https://www.supergroup.fr/snickers-2-pack-barre-75g-24-snickers-ref-8001900.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/snickers.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "tropico",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8062618_A.png",
+    "source": "https://www.supergroup.fr/tropico-original-can-33-cl-tropico-boissons-aux-fruits-plate-ref-8062618.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/tropico.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "kronenbourg",
+    "url": "https://txorfhsydtwtumzepjhx.supabase.co/storage/v1/object/public/product-images/products/1757060015948-79gjqzahg24.webp",
+    "source": "https://hcenterdestockage.com/product/biere-blonde-kronenbourg-50cl-24x50cl-kronenbourg",
+    "provider": "H Center — fournisseur professionnel",
+    "file": "assets/products/kronenbourg.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "86-original",
+    "url": "https://cdn.neodis.net/images/article/3/500-133645.jpg",
+    "source": "https://www.mercier.fr/article/120/61266/bois-50cl-biere-8-6-original",
+    "provider": "Mercier — fournisseur professionnel",
+    "file": "assets/products/86-original.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "red-bull",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/870x2200/bd63fa219a/fr_ed_250ml_energy-drink_country_rgb_packrq-1842_cold_closed_front_com_25.png/m/310x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink",
+    "provider": "Red Bull — site officiel",
+    "file": "assets/products/red-bull.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "dada-litchi",
+    "url": "https://static.wixstatic.com/media/0367d2_96558f41220e458e87a01ebfe00d18ff~mv2.png",
+    "source": "https://www.starwell.fr/dadadrinks",
+    "provider": "Starwell — distributeur Dada",
+    "file": "assets/products/dada-litchi.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "dada-melon",
+    "url": "https://static.wixstatic.com/media/0367d2_320e31034fd14d029d846c34225a7b8e~mv2.png",
+    "source": "https://www.starwell.fr/dadadrinks",
+    "provider": "Starwell — distributeur Dada",
+    "file": "assets/products/dada-melon.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "mentos-fruit",
+    "url": "https://cdn.sanity.io/images/e4jxgyeh/production/9076a62ac0e63eefee61ed4c01f0e6c586766dc8-2139x2079.png?w=600",
+    "source": "https://www.mentos.fr/produits/mentos-fruit",
+    "provider": "Mentos — site officiel",
+    "file": "assets/products/mentos-fruit.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "mentos-discovery",
+    "url": "https://cdn.sanity.io/images/e4jxgyeh/production/4f7d793215b9cecffdfc1ae2043062976e2061a7-1024x1032.png?w=600",
+    "source": "https://www.mentos.fr/produits/mentos-discovery-14-flavours",
+    "provider": "Mentos — site officiel",
+    "file": "assets/products/mentos-discovery.webp",
+    "retrieved": "2026-09-06"
+  },
+  {
+    "name": "label5-whisky-20cl",
+    "url": "https://www.comptoirdesflasks.fr/app/uploads/2023/12/label5-20cl-png-3147690073604-2023-160x350-c-default@2x.jpg",
+    "source": "https://www.comptoirdesflasks.fr/gamme/mixologie/whisky-label-5-classic-black/",
+    "provider": "Comptoir des Flasks — La Martiniquaise, fabricant",
+    "file": "assets/products/label5-whisky-20cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Classic Black, flasque 20 cl, 40 % ; contenance lisible sur le packshot."
+  },
+  {
+    "name": "poliakov-vodka-20cl",
+    "url": "https://www.comptoirdesflasks.fr/app/uploads/2023/12/image-160x350-c-default@2x.jpg",
+    "source": "https://www.comptoirdesflasks.fr/gamme/mixologie/vodka-poliakov/",
+    "provider": "Comptoir des Flasks — La Martiniquaise, fabricant",
+    "file": "assets/products/poliakov-vodka-20cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Vodka originale, flasque 20 cl, 37,5 %, capsule bleue."
+  },
+  {
+    "name": "rhum-lm-blanc-20cl",
+    "url": "https://www.comptoirdesflasks.fr/app/uploads/2023/12/rhum-blanc-la-martiniquaise-nu-face-160x350-c-default@2x.jpg",
+    "source": "https://www.comptoirdesflasks.fr/gamme/mixologie/rhum-blanc-la-martiniquaise/",
+    "provider": "Comptoir des Flasks — La Martiniquaise, fabricant",
+    "file": "assets/products/rhum-lm-blanc-20cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Rhum blanc traditionnel La Martiniquaise 20 cl, 40 %. Édition d’étiquette différente du stock photographié ; même référence et contenance."
+  },
+  {
+    "name": "rhum-lm-ambre-20cl",
+    "url": "https://www.comptoirdesflasks.fr/app/uploads/2024/01/rhum-ambre-la-martiniquaise-nu-face-new-160x350-c-default@2x.jpg",
+    "source": "https://www.comptoirdesflasks.fr/gamme/gastronomie/rhum-ambre-la-martiniquaise/",
+    "provider": "Comptoir des Flasks — La Martiniquaise, fabricant",
+    "file": "assets/products/rhum-lm-ambre-20cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Rhum ambré traditionnel La Martiniquaise 20 cl, 40 %. Édition d’étiquette différente du stock photographié ; même référence et contenance."
+  },
+  {
+    "name": "rioba-orange-25cl",
+    "url": "https://cdn.metro-group.com/fr/fr_pim_396957001002_01.png",
+    "source": "https://www.metro.fr/metro/marques-metro/rioba",
+    "provider": "METRO — marque RIOBA",
+    "file": "assets/products/rioba-orange-25cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Jus d’orange à base de concentré, bouteille verre 25 cl."
+  },
+  {
+    "name": "rioba-pomme-25cl",
+    "url": "https://cdn.metro-group.com/fr/fr_pim_854032001002_01.png",
+    "source": "https://www.metro.fr/metro/univers-produits/boisson/brasserie/jus-nectar",
+    "provider": "METRO — marque RIOBA",
+    "file": "assets/products/rioba-pomme-25cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Pur jus de pomme, bouteille verre 25 cl."
+  },
+  {
+    "name": "coca-cola-original-33cl",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8028011_A.png",
+    "source": "https://www.supergroup.fr/coca-cola-can-33-cl-coca-cola-cola-ref-8028011.html",
+    "provider": "Supergroup — fournisseur professionnel",
+    "file": "assets/products/coca-cola-original-33cl.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Coca-Cola Goût Original, canette slim 33 cl ; distinct de la référence Sans Sucres."
+  },
+  {
+    "name": "lutti-long-fizz-colors-180g",
+    "url": "https://www.mescoursesdeproximite.com/images/produits/produit/808470_M1_S1.jpg",
+    "source": "https://www.mescoursesdeproximite.com/produit/lutti-long-fizz-colors-180g-1800kg-spar-83136/TZ700/808470",
+    "provider": "SPAR — Mes Courses de Proximité",
+    "file": "assets/products/lutti-long-fizz-colors-180g.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Long Fizz Colors, sachet 180 g marqué Veggie. Packshot Maxiflex des Magasins U écarté."
+  },
+  {
+    "name": "skittles-fruits-152g",
+    "url": "https://asset.action.com/image/upload/t_digital_product_image/w_1080/3205029_4009900482967-111_01_firhmb.webp",
+    "source": "https://www.action.com/fr-fr/p/3205029/skittles-fruits/",
+    "provider": "Action — distributeur",
+    "file": "assets/products/skittles-fruits-152g.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Fruits, sachet 152 g, référence Action 3205029 correspondant au ticket."
+  },
+  {
+    "name": "maoam-220g",
+    "url": "https://asset.action.com/image/upload/t_digital_product_image/w_1080/20749875.webp",
+    "source": "https://www.action.com/fr-be/p/2531068/maoam-bloxx/",
+    "provider": "Action — distributeur",
+    "file": "assets/products/maoam-220g.webp",
+    "retrieved": "2026-09-07",
+    "verification": "Bloxx, paquet de 10 × 22 g = 220 g, référence Action 2531068 correspondant au ticket."
+  }
+]

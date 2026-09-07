@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+ <rect width="1200" height="630" fill="#061827"/>
+ <circle cx="1040" cy="248" r="261" fill="none" stroke="#e9a83b" stroke-opacity=".16"/>
+ <circle cx="1040" cy="248" r="225" fill="#e9a83b"/>
+ <path d="m1076 75-151 217h104l-26 143 157-228h-99z" fill="#061827"/>
+ <g font-family="Arial,sans-serif">
+ <text x="65" y="78" fill="#f3c35d" font-size="19" font-weight="700" letter-spacing="3">THANN &amp; ALENTOURS · 7J/7</text>
+ <text x="60" y="215" fill="#f6f3ea" font-size="106" font-weight="900" letter-spacing="-5">FLASH</text>
+ <text x="60" y="325" fill="#f6f3ea" font-size="106" font-weight="900" letter-spacing="-5">APÉRO <tspan fill="#e9a83b">68.</tspan></text>
+ <text x="65" y="389" fill="#f6f3ea" font-size="23">Boissons fraîches · Snacks · Accessoires</text>
+ <text x="65" y="435" fill="#b5c2cb" font-size="22">À emporter ou en livraison. Jusqu’à 2h.</text>
+ <rect y="487" width="1200" height="143" fill="#e9a83b"/>
+ <text x="65" y="558" fill="#061827" font-size="45" font-weight="700">07 55 95 92 37</text>
+ <text x="70" y="594" fill="#061827" font-size="18">SNAPCHAT : flashapero68</text>
+ <text x="805" y="552" fill="#061827" font-size="17" font-weight="700">18+ uniquement</text>
+ <text x="805" y="580" fill="#061827" font-size="12">L’abus d’alcool est dangereux pour la santé.</text>
+ <text x="805" y="600" fill="#061827" font-size="12">À consommer avec modération.</text>
+ </g>
+</svg>
