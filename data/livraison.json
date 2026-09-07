@@ -1,0 +1,2197 @@
+{
+  "checkedOn": "2026-09-07",
+  "calculatedAt": "2026-09-06T23:17:45.615Z",
+  "origin": {
+    "label": "Rue de l’Engelbourg, Thann",
+    "coordinates": [
+      7.099538,
+      47.813823
+    ]
+  },
+  "maximumRouteMinutes": 30,
+  "method": "Communes françaises dont la mairie est accessible en voiture en 1 800 secondes maximum selon OSRM/OpenStreetMap, sans trafic en temps réel. Présélection à 65 km à vol d’oiseau dans les départements 68, 90, 88, 70 et 25 ; 950 itinéraires calculés. Disponibilité et délai à confirmer selon l’adresse.",
+  "sources": [
+    "https://geo.api.gouv.fr/decoupage-administratif/communes",
+    "https://data.geopf.fr/geocodage/search",
+    "https://project-osrm.org/docs/v5.24.0/api/#table-service",
+    "https://router.project-osrm.org",
+    "https://www.openstreetmap.org/copyright"
+  ],
+  "tariffNote": "Les tarifs et durées des zones 01 à 08 proviennent de la demande initiale du commerçant et sont conservés. À sa demande d’augmenter les montants après la zone 08, progression proposée et configurée : zone 09, seuil 50 €, frais 7 € ; zone 10, seuil 55 €, frais 7,50 €. Les nouvelles communes sans barème à plus de 22 et jusqu’à 25 minutes sont rattachées à la zone 09 ; celles à plus de 25 et jusqu’à 30 minutes à la zone 10. Les communes déjà tarifées gardent leur zone. Les communes non tarifées à 22 minutes ou moins restent à confirmer par téléphone, notamment Aspach-le-Bas et Aspach-Michelbach.",
+  "zones": [
+    {
+      "id": "01",
+      "title": "Thann / Vieux-Thann / Leimbach",
+      "time": "Moins de 5 min",
+      "minimum": 15,
+      "fee": 2.5,
+      "towns": [
+        "Thann",
+        "Vieux-Thann",
+        "Leimbach"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Cernay / Aspach / Roderen",
+      "time": "5 à 10 min",
+      "minimum": 20,
+      "fee": 3.5,
+      "towns": [
+        "Cernay",
+        "Roderen"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Bitschwiller-lès-Thann / Willer-sur-Thur",
+      "time": "5 à 10 min",
+      "minimum": 20,
+      "fee": 3.5,
+      "towns": [
+        "Bitschwiller-lès-Thann",
+        "Willer-sur-Thur"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Wittelsheim / Staffelfelden",
+      "time": "10 à 15 min",
+      "minimum": 30,
+      "fee": 4.5,
+      "towns": [
+        "Wittelsheim",
+        "Staffelfelden"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Saint-Amarin / Fellering",
+      "time": "12 à 15 min",
+      "minimum": 35,
+      "fee": 5,
+      "towns": [
+        "Saint-Amarin",
+        "Fellering"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Masevaux-Niederbruck",
+      "time": "15 à 20 min",
+      "minimum": 35,
+      "fee": 5,
+      "towns": [
+        "Masevaux-Niederbruck"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Soultz-Haut-Rhin / Guebwiller",
+      "time": "15 à 20 min",
+      "minimum": 40,
+      "fee": 6,
+      "towns": [
+        "Soultz-Haut-Rhin",
+        "Guebwiller"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Lutterbach / Pfastatt / Reiningue",
+      "time": "18 à 22 min",
+      "minimum": 45,
+      "fee": 6.5,
+      "towns": [
+        "Lutterbach",
+        "Pfastatt",
+        "Reiningue"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Mulhouse / Illzach / Kingersheim et alentours",
+      "time": "Plus de 22 à 25 min",
+      "minimum": 50,
+      "fee": 7,
+      "routeRangeMinutes": {
+        "lowerExclusive": 22,
+        "upperInclusive": 25
+      },
+      "towns": [
+        "Balschwiller",
+        "Bergholtz",
+        "Bretten",
+        "Brunstatt-Didenheim",
+        "Buethwiller",
+        "Eglingen",
+        "Eteimbes",
+        "Falkwiller",
+        "Frœningen",
+        "Galfingue",
+        "Gildwiller",
+        "Guevenatten",
+        "Hochstatt",
+        "Illzach",
+        "Issenheim",
+        "Jungholtz",
+        "Kingersheim",
+        "Lachapelle-sous-Rougemont",
+        "Merxheim",
+        "Mollau",
+        "Mulhouse",
+        "Oderen",
+        "Pulversheim",
+        "Spechbach",
+        "Storckensohn",
+        "Ungersheim",
+        "Urbès",
+        "Wuenheim",
+        "Zillisheim"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Riedisheim / Rixheim / Wittenheim et alentours",
+      "time": "Plus de 25 à 30 min",
+      "minimum": 55,
+      "fee": 7.5,
+      "routeRangeMinutes": {
+        "lowerExclusive": 25,
+        "upperInclusive": 30
+      },
+      "towns": [
+        "Angeot",
+        "Baldersheim",
+        "Battenheim",
+        "Bellemagny",
+        "Bergholtzzell",
+        "Bréchaumont",
+        "Bruebach",
+        "Buhl",
+        "Felon",
+        "Flaxlanden",
+        "Fontaine",
+        "Gommersdorf",
+        "Gundolsheim",
+        "Habsheim",
+        "Hagenbach",
+        "Heidwiller",
+        "Illfurth",
+        "Kruth",
+        "Lacollonge",
+        "Lagrange",
+        "Larivière",
+        "Leval",
+        "Orschwihr",
+        "Petitefontaine",
+        "Pfaffenheim",
+        "Riedisheim",
+        "Rimbach-près-Guebwiller",
+        "Rimbachzell",
+        "Rixheim",
+        "Rouffach",
+        "Rougemont-le-Château",
+        "Ruelisheim",
+        "Saint-Bernard",
+        "Saint-Cosme",
+        "Sausheim",
+        "Sickert",
+        "Traubach-le-Bas",
+        "Traubach-le-Haut",
+        "Vauthiermont",
+        "Wegscheid",
+        "Westhalten",
+        "Wittenheim"
+      ]
+    }
+  ],
+  "communes": [
+    {
+      "code": "90002",
+      "name": "Angeot",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1591.8,
+      "routeMeters": 19046.8,
+      "destination": [
+        7.0141,
+        47.6964
+      ],
+      "snapMeters": 13.24264351
+    },
+    {
+      "code": "68011",
+      "name": "Aspach-le-Bas",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 707.6,
+      "routeMeters": 7373,
+      "destination": [
+        7.1502,
+        47.7619
+      ],
+      "snapMeters": 16.35771031
+    },
+    {
+      "code": "68012",
+      "name": "Aspach-Michelbach",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [
+        "Aspach-le-Haut",
+        "Michelbach"
+      ],
+      "zone": null,
+      "routeSeconds": 561.9,
+      "routeMeters": 5554.4,
+      "destination": [
+        7.1303,
+        47.7746
+      ],
+      "snapMeters": 11.36277551
+    },
+    {
+      "code": "68015",
+      "name": "Baldersheim",
+      "postcodes": [
+        "68390"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1637.4,
+      "routeMeters": 29436.6,
+      "destination": [
+        7.3786,
+        47.8018
+      ],
+      "snapMeters": 17.38792077
+    },
+    {
+      "code": "68018",
+      "name": "Balschwiller",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1339.2,
+      "routeMeters": 21520.6,
+      "destination": [
+        7.1704,
+        47.6697
+      ],
+      "snapMeters": 14.76458424
+    },
+    {
+      "code": "68022",
+      "name": "Battenheim",
+      "postcodes": [
+        "68390"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1732.6,
+      "routeMeters": 30930.6,
+      "destination": [
+        7.3822,
+        47.8192
+      ],
+      "snapMeters": 20.41995816
+    },
+    {
+      "code": "68024",
+      "name": "Bellemagny",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1510.5,
+      "routeMeters": 21937.2,
+      "destination": [
+        7.0647,
+        47.6893
+      ],
+      "snapMeters": 14.17720938
+    },
+    {
+      "code": "68029",
+      "name": "Bergholtz",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1433.3,
+      "routeMeters": 24629.9,
+      "destination": [
+        7.2462,
+        47.919
+      ],
+      "snapMeters": 20.69859652
+    },
+    {
+      "code": "68030",
+      "name": "Bergholtzzell",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1638.9,
+      "routeMeters": 26720.6,
+      "destination": [
+        7.2339,
+        47.9291
+      ],
+      "snapMeters": 10.09224828
+    },
+    {
+      "code": "68006",
+      "name": "Bernwiller",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [
+        "Ammertzwiller"
+      ],
+      "zone": null,
+      "routeSeconds": 1235,
+      "routeMeters": 19877.8,
+      "destination": [
+        7.1687,
+        47.6886
+      ],
+      "snapMeters": 15.92862709
+    },
+    {
+      "code": "68032",
+      "name": "Berrwiller",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1068.3,
+      "routeMeters": 15551.2,
+      "destination": [
+        7.2192,
+        47.8509
+      ],
+      "snapMeters": 8.161292233
+    },
+    {
+      "code": "68040",
+      "name": "Bitschwiller-lès-Thann",
+      "postcodes": [
+        "68620"
+      ],
+      "aliases": [],
+      "zone": "03",
+      "routeSeconds": 428.1,
+      "routeMeters": 2884.3,
+      "destination": [
+        7.08,
+        47.829
+      ],
+      "snapMeters": 15.35613713
+    },
+    {
+      "code": "68043",
+      "name": "Bollwiller",
+      "postcodes": [
+        "68540"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1130.2,
+      "routeMeters": 17934.1,
+      "destination": [
+        7.2623,
+        47.8602
+      ],
+      "snapMeters": 25.97731565
+    },
+    {
+      "code": "68045",
+      "name": "Bourbach-le-Bas",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 967.5,
+      "routeMeters": 9978.2,
+      "destination": [
+        7.0601,
+        47.7748
+      ],
+      "snapMeters": 11.02841847
+    },
+    {
+      "code": "68046",
+      "name": "Bourbach-le-Haut",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1085.6,
+      "routeMeters": 12847.5,
+      "destination": [
+        7.0297,
+        47.7952
+      ],
+      "snapMeters": 9.517290605
+    },
+    {
+      "code": "68050",
+      "name": "Bréchaumont",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1725.8,
+      "routeMeters": 24531.4,
+      "destination": [
+        7.0713,
+        47.6692
+      ],
+      "snapMeters": 9.637463516
+    },
+    {
+      "code": "68052",
+      "name": "Bretten",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1354.2,
+      "routeMeters": 20414.5,
+      "destination": [
+        7.0721,
+        47.6987
+      ],
+      "snapMeters": 13.31779274
+    },
+    {
+      "code": "68055",
+      "name": "Bruebach",
+      "postcodes": [
+        "68440"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1638.2,
+      "routeMeters": 26636.2,
+      "destination": [
+        7.3586,
+        47.7004
+      ],
+      "snapMeters": 7.398518984
+    },
+    {
+      "code": "68056",
+      "name": "Brunstatt-Didenheim",
+      "postcodes": [
+        "68350"
+      ],
+      "aliases": [
+        "Brunstatt",
+        "Didenheim"
+      ],
+      "zone": "09",
+      "routeSeconds": 1369.7,
+      "routeMeters": 22613.9,
+      "destination": [
+        7.3171,
+        47.7211
+      ],
+      "snapMeters": 15.5701858
+    },
+    {
+      "code": "68057",
+      "name": "Buethwiller",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1497.5,
+      "routeMeters": 23497.4,
+      "destination": [
+        7.1483,
+        47.6565
+      ],
+      "snapMeters": 16.92813884
+    },
+    {
+      "code": "68058",
+      "name": "Buhl",
+      "postcodes": [
+        "68530"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1751,
+      "routeMeters": 27635.7,
+      "destination": [
+        7.1866,
+        47.9281
+      ],
+      "snapMeters": 9.378439983
+    },
+    {
+      "code": "68059",
+      "name": "Burnhaupt-le-Bas",
+      "postcodes": [
+        "68520"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1008.1,
+      "routeMeters": 15677.8,
+      "destination": [
+        7.1607,
+        47.7191
+      ],
+      "snapMeters": 5.397351083
+    },
+    {
+      "code": "68060",
+      "name": "Burnhaupt-le-Haut",
+      "postcodes": [
+        "68520"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1014.4,
+      "routeMeters": 14363.5,
+      "destination": [
+        7.1457,
+        47.7299
+      ],
+      "snapMeters": 8.754021522
+    },
+    {
+      "code": "68063",
+      "name": "Cernay",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [],
+      "zone": "02",
+      "routeSeconds": 718,
+      "routeMeters": 7828.3,
+      "destination": [
+        7.1785,
+        47.8085
+      ],
+      "snapMeters": 16.51358065
+    },
+    {
+      "code": "68071",
+      "name": "Diefmatten",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1125.2,
+      "routeMeters": 17063.3,
+      "destination": [
+        7.1147,
+        47.7085
+      ],
+      "snapMeters": 23.06153794
+    },
+    {
+      "code": "68077",
+      "name": "Eglingen",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1480.6,
+      "routeMeters": 23028.9,
+      "destination": [
+        7.1833,
+        47.6654
+      ],
+      "snapMeters": 7.963269293
+    },
+    {
+      "code": "68085",
+      "name": "Eteimbes",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1428.3,
+      "routeMeters": 21135.7,
+      "destination": [
+        7.0541,
+        47.7026
+      ],
+      "snapMeters": 6.841197737
+    },
+    {
+      "code": "68086",
+      "name": "Falkwiller",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1422.2,
+      "routeMeters": 20656.6,
+      "destination": [
+        7.1341,
+        47.6802
+      ],
+      "snapMeters": 22.85571234
+    },
+    {
+      "code": "68088",
+      "name": "Feldkirch",
+      "postcodes": [
+        "68540"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1242.4,
+      "routeMeters": 19192,
+      "destination": [
+        7.2758,
+        47.8665
+      ],
+      "snapMeters": 13.17920812
+    },
+    {
+      "code": "68089",
+      "name": "Fellering",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": "05",
+      "routeSeconds": 1250,
+      "routeMeters": 13871.9,
+      "destination": [
+        6.9865,
+        47.8961
+      ],
+      "snapMeters": 10.69016496
+    },
+    {
+      "code": "90044",
+      "name": "Felon",
+      "postcodes": [
+        "90110"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1684.1,
+      "routeMeters": 21060,
+      "destination": [
+        6.9767,
+        47.7054
+      ],
+      "snapMeters": 11.0328438
+    },
+    {
+      "code": "68093",
+      "name": "Flaxlanden",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1603.5,
+      "routeMeters": 25322.2,
+      "destination": [
+        7.3159,
+        47.6956
+      ],
+      "snapMeters": 3.71258244
+    },
+    {
+      "code": "90047",
+      "name": "Fontaine",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1796.2,
+      "routeMeters": 34428,
+      "destination": [
+        6.997,
+        47.6569
+      ],
+      "snapMeters": 10.82033305
+    },
+    {
+      "code": "68099",
+      "name": "Frœningen",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1457.2,
+      "routeMeters": 23396.4,
+      "destination": [
+        7.2699,
+        47.6902
+      ],
+      "snapMeters": 11.12863549
+    },
+    {
+      "code": "68101",
+      "name": "Galfingue",
+      "postcodes": [
+        "68990"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1394,
+      "routeMeters": 21364.8,
+      "destination": [
+        7.2248,
+        47.7063
+      ],
+      "snapMeters": 15.83090052
+    },
+    {
+      "code": "68102",
+      "name": "Geishouse",
+      "postcodes": [
+        "68690"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1195.8,
+      "routeMeters": 12457.3,
+      "destination": [
+        7.0587,
+        47.8857
+      ],
+      "snapMeters": 15.40149076
+    },
+    {
+      "code": "68105",
+      "name": "Gildwiller",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1361.1,
+      "routeMeters": 19976.8,
+      "destination": [
+        7.1317,
+        47.6906
+      ],
+      "snapMeters": 12.13036631
+    },
+    {
+      "code": "68106",
+      "name": "Goldbach-Altenbach",
+      "postcodes": [
+        "68760"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 967.7,
+      "routeMeters": 11188.3,
+      "destination": [
+        7.1048,
+        47.8731
+      ],
+      "snapMeters": 20.27522296
+    },
+    {
+      "code": "68107",
+      "name": "Gommersdorf",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1723.3,
+      "routeMeters": 26517.8,
+      "destination": [
+        7.1278,
+        47.6384
+      ],
+      "snapMeters": 21.0380587
+    },
+    {
+      "code": "68112",
+      "name": "Guebwiller",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "07",
+      "routeSeconds": 1539.7,
+      "routeMeters": 23734.5,
+      "destination": [
+        7.2109,
+        47.9093
+      ],
+      "snapMeters": 17.10011011
+    },
+    {
+      "code": "68114",
+      "name": "Guevenatten",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1459.5,
+      "routeMeters": 21629.9,
+      "destination": [
+        7.0792,
+        47.6832
+      ],
+      "snapMeters": 12.72791817
+    },
+    {
+      "code": "68115",
+      "name": "Guewenheim",
+      "postcodes": [
+        "68116"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 839.7,
+      "routeMeters": 9027.1,
+      "destination": [
+        7.093,
+        47.7504
+      ],
+      "snapMeters": 21.80644839
+    },
+    {
+      "code": "68116",
+      "name": "Gundolsheim",
+      "postcodes": [
+        "68250"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1568.8,
+      "routeMeters": 27949.7,
+      "destination": [
+        7.2945,
+        47.9299
+      ],
+      "snapMeters": 11.83493007
+    },
+    {
+      "code": "68118",
+      "name": "Habsheim",
+      "postcodes": [
+        "68440"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1779.2,
+      "routeMeters": 33489.2,
+      "destination": [
+        7.4162,
+        47.7285
+      ],
+      "snapMeters": 17.16450756
+    },
+    {
+      "code": "68119",
+      "name": "Hagenbach",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1526,
+      "routeMeters": 23998.5,
+      "destination": [
+        7.1553,
+        47.6497
+      ],
+      "snapMeters": 9.626834419
+    },
+    {
+      "code": "68122",
+      "name": "Hartmannswiller",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1130.2,
+      "routeMeters": 18376.4,
+      "destination": [
+        7.2166,
+        47.8614
+      ],
+      "snapMeters": 16.67214185
+    },
+    {
+      "code": "68125",
+      "name": "Hecken",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1296.1,
+      "routeMeters": 19221,
+      "destination": [
+        7.1247,
+        47.6916
+      ],
+      "snapMeters": 12.45464527
+    },
+    {
+      "code": "68127",
+      "name": "Heidwiller",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1790.3,
+      "routeMeters": 26600.7,
+      "destination": [
+        7.2412,
+        47.6589
+      ],
+      "snapMeters": 19.85056162
+    },
+    {
+      "code": "68129",
+      "name": "Heimsbrunn",
+      "postcodes": [
+        "68990"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1172.2,
+      "routeMeters": 18784.8,
+      "destination": [
+        7.2253,
+        47.7281
+      ],
+      "snapMeters": 14.25790806
+    },
+    {
+      "code": "68141",
+      "name": "Hochstatt",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1356.8,
+      "routeMeters": 22394.1,
+      "destination": [
+        7.275,
+        47.7026
+      ],
+      "snapMeters": 8.613218501
+    },
+    {
+      "code": "68151",
+      "name": "Husseren-Wesserling",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1188.9,
+      "routeMeters": 12917.5,
+      "destination": [
+        6.9915,
+        47.8833
+      ],
+      "snapMeters": 6.725948464
+    },
+    {
+      "code": "68152",
+      "name": "Illfurth",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1676.8,
+      "routeMeters": 26247.4,
+      "destination": [
+        7.2647,
+        47.671
+      ],
+      "snapMeters": 19.60423004
+    },
+    {
+      "code": "68154",
+      "name": "Illzach",
+      "postcodes": [
+        "68110"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1415.8,
+      "routeMeters": 25029.9,
+      "destination": [
+        7.3469,
+        47.7816
+      ],
+      "snapMeters": 23.97993913
+    },
+    {
+      "code": "68156",
+      "name": "Issenheim",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1368.3,
+      "routeMeters": 22476.1,
+      "destination": [
+        7.2538,
+        47.9027
+      ],
+      "snapMeters": 11.99909574
+    },
+    {
+      "code": "68159",
+      "name": "Jungholtz",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1472.5,
+      "routeMeters": 22987.9,
+      "destination": [
+        7.1941,
+        47.886
+      ],
+      "snapMeters": 30.23614443
+    },
+    {
+      "code": "68166",
+      "name": "Kingersheim",
+      "postcodes": [
+        "68260"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1452.1,
+      "routeMeters": 25076.6,
+      "destination": [
+        7.3344,
+        47.7895
+      ],
+      "snapMeters": 11.70054039
+    },
+    {
+      "code": "68171",
+      "name": "Kruth",
+      "postcodes": [
+        "68820"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1646.5,
+      "routeMeters": 18393.1,
+      "destination": [
+        6.9648,
+        47.9307
+      ],
+      "snapMeters": 14.5889208
+    },
+    {
+      "code": "90058",
+      "name": "Lachapelle-sous-Rougemont",
+      "postcodes": [
+        "90360"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1419.6,
+      "routeMeters": 17148.1,
+      "destination": [
+        7.015,
+        47.7121
+      ],
+      "snapMeters": 16.60374101
+    },
+    {
+      "code": "90059",
+      "name": "Lacollonge",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1792.8,
+      "routeMeters": 32846.8,
+      "destination": [
+        6.9602,
+        47.6629
+      ],
+      "snapMeters": 13.03472684
+    },
+    {
+      "code": "90060",
+      "name": "Lagrange",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1728.8,
+      "routeMeters": 33695.7,
+      "destination": [
+        6.9776,
+        47.6812
+      ],
+      "snapMeters": 22.19859941
+    },
+    {
+      "code": "90062",
+      "name": "Larivière",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1703.4,
+      "routeMeters": 32996.7,
+      "destination": [
+        6.9987,
+        47.6726
+      ],
+      "snapMeters": 16.99467691
+    },
+    {
+      "code": "68179",
+      "name": "Lauw",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1245.4,
+      "routeMeters": 14234.3,
+      "destination": [
+        7.0181,
+        47.7573
+      ],
+      "snapMeters": 9.955584729
+    },
+    {
+      "code": "68219",
+      "name": "Le Haut Soultzbach",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [
+        "Soppe-le-Haut",
+        "Mortzwiller"
+      ],
+      "zone": null,
+      "routeSeconds": 1259.7,
+      "routeMeters": 14661.8,
+      "destination": [
+        7.0395,
+        47.7395
+      ],
+      "snapMeters": 13.73669599
+    },
+    {
+      "code": "68180",
+      "name": "Leimbach",
+      "postcodes": [
+        "68800"
+      ],
+      "aliases": [],
+      "zone": "01",
+      "routeSeconds": 401.6,
+      "routeMeters": 3220.5,
+      "destination": [
+        7.1006,
+        47.7932
+      ],
+      "snapMeters": 8.855343927
+    },
+    {
+      "code": "90066",
+      "name": "Leval",
+      "postcodes": [
+        "90110"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1716.8,
+      "routeMeters": 20830.3,
+      "destination": [
+        6.9824,
+        47.7289
+      ],
+      "snapMeters": 14.11503462
+    },
+    {
+      "code": "68195",
+      "name": "Lutterbach",
+      "postcodes": [
+        "68460"
+      ],
+      "aliases": [],
+      "zone": "08",
+      "routeSeconds": 1041.1,
+      "routeMeters": 16111.7,
+      "destination": [
+        7.282,
+        47.7604
+      ],
+      "snapMeters": 25.05555306
+    },
+    {
+      "code": "68199",
+      "name": "Malmerspach",
+      "postcodes": [
+        "68550"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 896.7,
+      "routeMeters": 9109.4,
+      "destination": [
+        7.0335,
+        47.865
+      ],
+      "snapMeters": 18.47634686
+    },
+    {
+      "code": "68201",
+      "name": "Masevaux-Niederbruck",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [
+        "Masevaux",
+        "Niederbruck"
+      ],
+      "zone": "06",
+      "routeSeconds": 1447.2,
+      "routeMeters": 17008.2,
+      "destination": [
+        6.9973,
+        47.7737
+      ],
+      "snapMeters": 11.44078693
+    },
+    {
+      "code": "68203",
+      "name": "Merxheim",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1443,
+      "routeMeters": 24986.8,
+      "destination": [
+        7.2929,
+        47.9112
+      ],
+      "snapMeters": 13.34069399
+    },
+    {
+      "code": "68211",
+      "name": "Mitzach",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1090.1,
+      "routeMeters": 12086.4,
+      "destination": [
+        7.0051,
+        47.8713
+      ],
+      "snapMeters": 11.69087318
+    },
+    {
+      "code": "68213",
+      "name": "Mollau",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1377.4,
+      "routeMeters": 15005.9,
+      "destination": [
+        6.9736,
+        47.8711
+      ],
+      "snapMeters": 18.82460208
+    },
+    {
+      "code": "68217",
+      "name": "Moosch",
+      "postcodes": [
+        "68690"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 813,
+      "routeMeters": 7785.1,
+      "destination": [
+        7.0484,
+        47.86
+      ],
+      "snapMeters": 15.3151841
+    },
+    {
+      "code": "68218",
+      "name": "Morschwiller-le-Bas",
+      "postcodes": [
+        "68790"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1165.9,
+      "routeMeters": 19130.8,
+      "destination": [
+        7.2668,
+        47.736
+      ],
+      "snapMeters": 11.42787838
+    },
+    {
+      "code": "68224",
+      "name": "Mulhouse",
+      "postcodes": [
+        "68100",
+        "68200"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1450.1,
+      "routeMeters": 22728.2,
+      "destination": [
+        7.336,
+        47.7505
+      ],
+      "snapMeters": 17.43663229
+    },
+    {
+      "code": "68247",
+      "name": "Oderen",
+      "postcodes": [
+        "68830"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1430.6,
+      "routeMeters": 15810.6,
+      "destination": [
+        6.9755,
+        47.9099
+      ],
+      "snapMeters": 12.40095516
+    },
+    {
+      "code": "68250",
+      "name": "Orschwihr",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1641.9,
+      "routeMeters": 27044.4,
+      "destination": [
+        7.2332,
+        47.9361
+      ],
+      "snapMeters": 9.773008556
+    },
+    {
+      "code": "90078",
+      "name": "Petitefontaine",
+      "postcodes": [
+        "90360"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1530,
+      "routeMeters": 18570.6,
+      "destination": [
+        7.0077,
+        47.7213
+      ],
+      "snapMeters": 10.51290779
+    },
+    {
+      "code": "68255",
+      "name": "Pfaffenheim",
+      "postcodes": [
+        "68250"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1799.3,
+      "routeMeters": 33097,
+      "destination": [
+        7.2863,
+        47.9843
+      ],
+      "snapMeters": 15.15993462
+    },
+    {
+      "code": "68256",
+      "name": "Pfastatt",
+      "postcodes": [
+        "68120"
+      ],
+      "aliases": [],
+      "zone": "08",
+      "routeSeconds": 1233.1,
+      "routeMeters": 18025.6,
+      "destination": [
+        7.302,
+        47.7686
+      ],
+      "snapMeters": 23.92758957
+    },
+    {
+      "code": "68258",
+      "name": "Pulversheim",
+      "postcodes": [
+        "68840"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1329.2,
+      "routeMeters": 18724.3,
+      "destination": [
+        7.3017,
+        47.8338
+      ],
+      "snapMeters": 37.26766548
+    },
+    {
+      "code": "68260",
+      "name": "Raedersheim",
+      "postcodes": [
+        "68190"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1297.2,
+      "routeMeters": 21734.5,
+      "destination": [
+        7.2837,
+        47.8878
+      ],
+      "snapMeters": 28.6363821
+    },
+    {
+      "code": "68261",
+      "name": "Rammersmatt",
+      "postcodes": [
+        "68800"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 728.6,
+      "routeMeters": 7367.8,
+      "destination": [
+        7.0684,
+        47.7889
+      ],
+      "snapMeters": 5.037022846
+    },
+    {
+      "code": "68262",
+      "name": "Ranspach",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1099.8,
+      "routeMeters": 11942.9,
+      "destination": [
+        7.01,
+        47.886
+      ],
+      "snapMeters": 10.37863678
+    },
+    {
+      "code": "68267",
+      "name": "Reiningue",
+      "postcodes": [
+        "68950"
+      ],
+      "aliases": [],
+      "zone": "08",
+      "routeSeconds": 984.7,
+      "routeMeters": 14154.8,
+      "destination": [
+        7.2333,
+        47.7477
+      ],
+      "snapMeters": 16.08254775
+    },
+    {
+      "code": "68270",
+      "name": "Richwiller",
+      "postcodes": [
+        "68120"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1272.2,
+      "routeMeters": 18325.7,
+      "destination": [
+        7.2849,
+        47.779
+      ],
+      "snapMeters": 16.26463335
+    },
+    {
+      "code": "68271",
+      "name": "Riedisheim",
+      "postcodes": [
+        "68400"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1610.2,
+      "routeMeters": 25961.1,
+      "destination": [
+        7.3685,
+        47.7492
+      ],
+      "snapMeters": 9.48774182
+    },
+    {
+      "code": "68274",
+      "name": "Rimbach-près-Guebwiller",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1766.6,
+      "routeMeters": 27119.3,
+      "destination": [
+        7.1571,
+        47.9049
+      ],
+      "snapMeters": 6.889207512
+    },
+    {
+      "code": "68276",
+      "name": "Rimbachzell",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1649.9,
+      "routeMeters": 25228.4,
+      "destination": [
+        7.1764,
+        47.9005
+      ],
+      "snapMeters": 9.909626743
+    },
+    {
+      "code": "68278",
+      "name": "Rixheim",
+      "postcodes": [
+        "68170"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1752.2,
+      "routeMeters": 29455,
+      "destination": [
+        7.3967,
+        47.7445
+      ],
+      "snapMeters": 66.72591877
+    },
+    {
+      "code": "68279",
+      "name": "Roderen",
+      "postcodes": [
+        "68800"
+      ],
+      "aliases": [],
+      "zone": "02",
+      "routeSeconds": 536.8,
+      "routeMeters": 4989.8,
+      "destination": [
+        7.0911,
+        47.7807
+      ],
+      "snapMeters": 9.967951124
+    },
+    {
+      "code": "68287",
+      "name": "Rouffach",
+      "postcodes": [
+        "68250"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1712.9,
+      "routeMeters": 30646.2,
+      "destination": [
+        7.2994,
+        47.9568
+      ],
+      "snapMeters": 14.63077187
+    },
+    {
+      "code": "90089",
+      "name": "Rougemont-le-Château",
+      "postcodes": [
+        "90110"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1619.2,
+      "routeMeters": 19279.8,
+      "destination": [
+        6.9685,
+        47.7358
+      ],
+      "snapMeters": 16.29288545
+    },
+    {
+      "code": "68289",
+      "name": "Ruelisheim",
+      "postcodes": [
+        "68270"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1754.4,
+      "routeMeters": 23494.4,
+      "destination": [
+        7.3584,
+        47.8216
+      ],
+      "snapMeters": 13.88182955
+    },
+    {
+      "code": "68292",
+      "name": "Saint-Amarin",
+      "postcodes": [
+        "68550"
+      ],
+      "aliases": [],
+      "zone": "05",
+      "routeSeconds": 939.4,
+      "routeMeters": 9603.8,
+      "destination": [
+        7.0315,
+        47.8737
+      ],
+      "snapMeters": 10.77198741
+    },
+    {
+      "code": "68081",
+      "name": "Saint-Bernard",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1606.9,
+      "routeMeters": 23782.6,
+      "destination": [
+        7.2064,
+        47.6685
+      ],
+      "snapMeters": 18.21352954
+    },
+    {
+      "code": "68293",
+      "name": "Saint-Cosme",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1570.4,
+      "routeMeters": 22578,
+      "destination": [
+        7.0615,
+        47.6834
+      ],
+      "snapMeters": 12.49490534
+    },
+    {
+      "code": "68300",
+      "name": "Sausheim",
+      "postcodes": [
+        "68390"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1543.8,
+      "routeMeters": 28117.5,
+      "destination": [
+        7.37,
+        47.7895
+      ],
+      "snapMeters": 11.90497419
+    },
+    {
+      "code": "68302",
+      "name": "Schweighouse-Thann",
+      "postcodes": [
+        "68520"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 915.9,
+      "routeMeters": 9466.1,
+      "destination": [
+        7.1704,
+        47.7533
+      ],
+      "snapMeters": 12.0435462
+    },
+    {
+      "code": "68304",
+      "name": "Sentheim",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1018.2,
+      "routeMeters": 11526.4,
+      "destination": [
+        7.0524,
+        47.7561
+      ],
+      "snapMeters": 9.262364529
+    },
+    {
+      "code": "68308",
+      "name": "Sickert",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1594.5,
+      "routeMeters": 18812.4,
+      "destination": [
+        6.9789,
+        47.7829
+      ],
+      "snapMeters": 12.5919669
+    },
+    {
+      "code": "68313",
+      "name": "Soppe-le-Bas",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1105,
+      "routeMeters": 13075.4,
+      "destination": [
+        7.0909,
+        47.7172
+      ],
+      "snapMeters": 30.14197224
+    },
+    {
+      "code": "68315",
+      "name": "Soultz-Haut-Rhin",
+      "postcodes": [
+        "68360"
+      ],
+      "aliases": [],
+      "zone": "07",
+      "routeSeconds": 1241.4,
+      "routeMeters": 20435.9,
+      "destination": [
+        7.23,
+        47.8863
+      ],
+      "snapMeters": 21.67392121
+    },
+    {
+      "code": "68320",
+      "name": "Spechbach",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [
+        "Spechbach-le-Haut",
+        "Spechbach-le-Bas"
+      ],
+      "zone": "09",
+      "routeSeconds": 1390,
+      "routeMeters": 21738,
+      "destination": [
+        7.2167,
+        47.6804
+      ],
+      "snapMeters": 17.12663678
+    },
+    {
+      "code": "68321",
+      "name": "Staffelfelden",
+      "postcodes": [
+        "68850"
+      ],
+      "aliases": [],
+      "zone": "04",
+      "routeSeconds": 1227.2,
+      "routeMeters": 16737.6,
+      "destination": [
+        7.2553,
+        47.8268
+      ],
+      "snapMeters": 28.09654712
+    },
+    {
+      "code": "68322",
+      "name": "Steinbach",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 761,
+      "routeMeters": 7117,
+      "destination": [
+        7.1534,
+        47.8213
+      ],
+      "snapMeters": 12.27607023
+    },
+    {
+      "code": "68326",
+      "name": "Sternenberg",
+      "postcodes": [
+        "68780"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1312,
+      "routeMeters": 19645.6,
+      "destination": [
+        7.0941,
+        47.6957
+      ],
+      "snapMeters": 10.74353056
+    },
+    {
+      "code": "68328",
+      "name": "Storckensohn",
+      "postcodes": [
+        "68470"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1427.9,
+      "routeMeters": 16546.5,
+      "destination": [
+        6.9581,
+        47.8786
+      ],
+      "snapMeters": 3.527974394
+    },
+    {
+      "code": "68334",
+      "name": "Thann",
+      "postcodes": [
+        "68800"
+      ],
+      "aliases": [],
+      "zone": "01",
+      "routeSeconds": 94.5,
+      "routeMeters": 469.5,
+      "destination": [
+        7.1023,
+        47.8106
+      ],
+      "snapMeters": 17.49077403
+    },
+    {
+      "code": "68336",
+      "name": "Traubach-le-Bas",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1770.1,
+      "routeMeters": 25184.4,
+      "destination": [
+        7.0959,
+        47.6592
+      ],
+      "snapMeters": 6.853163615
+    },
+    {
+      "code": "68337",
+      "name": "Traubach-le-Haut",
+      "postcodes": [
+        "68210"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1601.2,
+      "routeMeters": 23603.5,
+      "destination": [
+        7.0904,
+        47.6692
+      ],
+      "snapMeters": 27.17635539
+    },
+    {
+      "code": "68342",
+      "name": "Uffholtz",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 878,
+      "routeMeters": 7361.7,
+      "destination": [
+        7.1779,
+        47.82
+      ],
+      "snapMeters": 15.26899457
+    },
+    {
+      "code": "68343",
+      "name": "Ungersheim",
+      "postcodes": [
+        "68190"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1408,
+      "routeMeters": 21805.6,
+      "destination": [
+        7.3039,
+        47.8779
+      ],
+      "snapMeters": 22.61792793
+    },
+    {
+      "code": "68344",
+      "name": "Urbès",
+      "postcodes": [
+        "68121"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1367.1,
+      "routeMeters": 16075.6,
+      "destination": [
+        6.9566,
+        47.8832
+      ],
+      "snapMeters": 12.26670524
+    },
+    {
+      "code": "90100",
+      "name": "Vauthiermont",
+      "postcodes": [
+        "90150"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1754,
+      "routeMeters": 24980.6,
+      "destination": [
+        7.0321,
+        47.6846
+      ],
+      "snapMeters": 13.05939582
+    },
+    {
+      "code": "68348",
+      "name": "Vieux-Thann",
+      "postcodes": [
+        "68800"
+      ],
+      "aliases": [],
+      "zone": "01",
+      "routeSeconds": 324.9,
+      "routeMeters": 2389,
+      "destination": [
+        7.1221,
+        47.8068
+      ],
+      "snapMeters": 15.95636101
+    },
+    {
+      "code": "68359",
+      "name": "Wattwiller",
+      "postcodes": [
+        "68700"
+      ],
+      "aliases": [],
+      "zone": null,
+      "routeSeconds": 1080,
+      "routeMeters": 14095.9,
+      "destination": [
+        7.1774,
+        47.8357
+      ],
+      "snapMeters": 7.438331397
+    },
+    {
+      "code": "68361",
+      "name": "Wegscheid",
+      "postcodes": [
+        "68290"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1775,
+      "routeMeters": 21173.5,
+      "destination": [
+        6.9604,
+        47.7983
+      ],
+      "snapMeters": 19.61638699
+    },
+    {
+      "code": "68364",
+      "name": "Westhalten",
+      "postcodes": [
+        "68250"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1666.4,
+      "routeMeters": 29295.2,
+      "destination": [
+        7.2592,
+        47.9579
+      ],
+      "snapMeters": 7.406674051
+    },
+    {
+      "code": "68372",
+      "name": "Willer-sur-Thur",
+      "postcodes": [
+        "68760"
+      ],
+      "aliases": [],
+      "zone": "03",
+      "routeSeconds": 568.2,
+      "routeMeters": 5101.2,
+      "destination": [
+        7.0702,
+        47.8438
+      ],
+      "snapMeters": 13.9148397
+    },
+    {
+      "code": "68375",
+      "name": "Wittelsheim",
+      "postcodes": [
+        "68310"
+      ],
+      "aliases": [],
+      "zone": "04",
+      "routeSeconds": 1001.5,
+      "routeMeters": 12942.9,
+      "destination": [
+        7.2406,
+        47.8092
+      ],
+      "snapMeters": 34.65528639
+    },
+    {
+      "code": "68376",
+      "name": "Wittenheim",
+      "postcodes": [
+        "68270"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1672.8,
+      "routeMeters": 22297,
+      "destination": [
+        7.3395,
+        47.8107
+      ],
+      "snapMeters": 16.45417212
+    },
+    {
+      "code": "68381",
+      "name": "Wuenheim",
+      "postcodes": [
+        "68500"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1374.7,
+      "routeMeters": 21122.6,
+      "destination": [
+        7.2071,
+        47.8736
+      ],
+      "snapMeters": 15.32172492
+    },
+    {
+      "code": "68384",
+      "name": "Zillisheim",
+      "postcodes": [
+        "68720"
+      ],
+      "aliases": [],
+      "zone": "09",
+      "routeSeconds": 1440.4,
+      "routeMeters": 22945.2,
+      "destination": [
+        7.2937,
+        47.6962
+      ],
+      "snapMeters": 12.32139713
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+[
+  {
+    "id": "kronenbourg",
+    "category": "bieres",
+    "brand": "Kronenbourg",
+    "name": "Original",
+    "size": "50 cl",
+    "price": 2.5
+  },
+  {
+    "id": "86-original",
+    "category": "bieres",
+    "brand": "8.6",
+    "name": "Original",
+    "size": "50 cl",
+    "price": 2.8
+  },
+  {
+    "id": "heineken",
+    "category": "bieres",
+    "brand": "Heineken",
+    "name": "Original",
+    "size": "50 cl",
+    "price": 2.8
+  },
+  {
+    "id": "1664",
+    "category": "bieres",
+    "brand": "1664",
+    "name": "Blonde",
+    "size": "50 cl",
+    "price": 2.8
+  },
+  {
+    "id": "desperados",
+    "category": "bieres",
+    "brand": "Desperados",
+    "name": "Original",
+    "size": "50 cl",
+    "price": 3.5
+  },
+  {
+    "id": "label5-whisky-20cl",
+    "category": "spiritueux",
+    "brand": "Label 5",
+    "name": "Whisky · Classic Black",
+    "size": "20 cl",
+    "price": 8
+  },
+  {
+    "id": "poliakov-vodka-20cl",
+    "category": "spiritueux",
+    "brand": "Poliakov",
+    "name": "Vodka",
+    "size": "20 cl",
+    "price": 7
+  },
+  {
+    "id": "rhum-lm-blanc-20cl",
+    "category": "spiritueux",
+    "brand": "La Martiniquaise · LM",
+    "name": "Rhum blanc",
+    "size": "20 cl",
+    "price": 7
+  },
+  {
+    "id": "rhum-lm-ambre-20cl",
+    "category": "spiritueux",
+    "brand": "La Martiniquaise · LM",
+    "name": "Rhum ambré",
+    "size": "20 cl",
+    "price": 7
+  },
+  {
+    "id": "coca-cola-original-33cl",
+    "category": "softs",
+    "brand": "Coca-Cola",
+    "name": "Original · canette",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "coca-cola",
+    "category": "softs",
+    "brand": "Coca-Cola",
+    "name": "Sans Sucres",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "oasis-tropical",
+    "category": "softs",
+    "brand": "Oasis",
+    "name": "Tropical",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "oasis-pomme",
+    "category": "softs",
+    "brand": "Oasis",
+    "name": "Pomme Cassis Framboise",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "tropico",
+    "category": "softs",
+    "brand": "Tropico",
+    "name": "L’Original",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "lipton",
+    "category": "softs",
+    "brand": "Lipton Ice Tea",
+    "name": "Pêche",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "schweppes",
+    "category": "softs",
+    "brand": "Schweppes",
+    "name": "Agrum’",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "orangina",
+    "category": "softs",
+    "brand": "Orangina",
+    "name": "Original",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "pepsi",
+    "category": "softs",
+    "brand": "Pepsi",
+    "name": "Regular",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "7up-cherry",
+    "category": "softs",
+    "brand": "7UP",
+    "name": "Cherry",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "dada-litchi",
+    "category": "softs",
+    "brand": "Dada",
+    "name": "Litchi",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "dada-melon",
+    "category": "softs",
+    "brand": "Dada",
+    "name": "Melon",
+    "size": "33 cl",
+    "price": 1.8
+  },
+  {
+    "id": "red-bull",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Energy Drink",
+    "size": "25 cl",
+    "price": 2.5
+  },
+  {
+    "id": "rioba-orange-25cl",
+    "category": "softs",
+    "brand": "RIOBA",
+    "name": "Jus d’orange",
+    "size": "25 cl",
+    "price": 1.8
+  },
+  {
+    "id": "rioba-pomme-25cl",
+    "category": "softs",
+    "brand": "RIOBA",
+    "name": "Pur jus de pomme",
+    "size": "25 cl",
+    "price": 1.8
+  },
+  {
+    "id": "pringles-hot-spicy",
+    "category": "snacks-sales",
+    "brand": "Pringles",
+    "name": "Hot & Spicy",
+    "size": "40 g",
+    "price": 1.8
+  },
+  {
+    "id": "pringles-paprika",
+    "category": "snacks-sales",
+    "brand": "Pringles",
+    "name": "Paprika",
+    "size": "40 g",
+    "price": 1.8
+  },
+  {
+    "id": "pringles-creme-oignon",
+    "category": "snacks-sales",
+    "brand": "Pringles",
+    "name": "Crème & Oignon",
+    "size": "40 g",
+    "price": 2
+  },
+  {
+    "id": "curly",
+    "category": "snacks-sales",
+    "brand": "Curly · Vico",
+    "name": "L’Original Cacahuète",
+    "size": "60 g",
+    "price": 1.5
+  },
+  {
+    "id": "lays",
+    "category": "snacks-sales",
+    "brand": "Lay’s",
+    "name": "Nature",
+    "size": "130 g",
+    "price": 1.8
+  },
+  {
+    "id": "snickers",
+    "category": "snacks-sucres",
+    "brand": "Snickers",
+    "name": "Duo",
+    "size": "75 g",
+    "price": 1.5
+  },
+  {
+    "id": "mars",
+    "category": "snacks-sucres",
+    "brand": "Mars",
+    "name": "Original",
+    "size": "51 g",
+    "price": 1.3
+  },
+  {
+    "id": "mentos-fruit",
+    "category": "snacks-sucres",
+    "brand": "Mentos",
+    "name": "Fruit",
+    "size": "Le rouleau",
+    "price": 1.2
+  },
+  {
+    "id": "mentos-discovery",
+    "category": "snacks-sucres",
+    "brand": "Mentos",
+    "name": "Discovery · 14 parfums",
+    "size": "Le rouleau",
+    "price": 1.2
+  },
+  {
+    "id": "lutti-long-fizz-colors-180g",
+    "category": "snacks-sucres",
+    "brand": "Lutti",
+    "name": "Long Fizz Colors",
+    "size": "180 g",
+    "price": 3
+  },
+  {
+    "id": "skittles-fruits-152g",
+    "category": "snacks-sucres",
+    "brand": "Skittles",
+    "name": "Fruits",
+    "size": "152 g",
+    "price": 2.5
+  },
+  {
+    "id": "maoam-220g",
+    "category": "snacks-sucres",
+    "brand": "MAOAM",
+    "name": "Bloxx · bonbons à mâcher",
+    "size": "220 g",
+    "price": 3
+  },
+  {
+    "id": "ocb",
+    "category": "accessoires",
+    "brand": "OCB",
+    "name": "Feuilles à rouler",
+    "size": "Le carnet",
+    "price": 2
+  },
+  {
+    "id": "ocb-slim",
+    "category": "accessoires",
+    "brand": "OCB",
+    "name": "Feuilles slim",
+    "size": "Le carnet",
+    "price": 2
+  },
+  {
+    "id": "bic",
+    "category": "accessoires",
+    "brand": "BIC",
+    "name": "Grand briquet",
+    "size": "À l’unité",
+    "price": 2.5,
+    "image": false
+  }
+]
