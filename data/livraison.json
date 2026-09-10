@@ -17,14 +17,15 @@
     "https://router.project-osrm.org",
     "https://www.openstreetmap.org/copyright"
   ],
-  "tariffNote": "Les tarifs et durées des zones 01 à 08 proviennent de la demande initiale du commerçant et sont conservés. À sa demande d’augmenter les montants après la zone 08, progression proposée et configurée : zone 09, seuil 50 €, frais 7 € ; zone 10, seuil 55 €, frais 7,50 €. Les nouvelles communes sans barème à plus de 22 et jusqu’à 25 minutes sont rattachées à la zone 09 ; celles à plus de 25 et jusqu’à 30 minutes à la zone 10. Les communes déjà tarifées gardent leur zone. Les communes non tarifées à 22 minutes ou moins restent à confirmer par téléphone, notamment Aspach-le-Bas et Aspach-Michelbach.",
+  "tariffsUpdatedOn": "2026-09-10",
+  "tariffNote": "À la demande du commerçant le 10 septembre 2026, le seuil de livraison gratuite augmente de 5 € et les frais sous ce seuil de 0,50 € dans chacune des dix zones, par rapport au barème précédent. Zone 09 : seuil 55 €, frais 7,50 € ; zone 10 : seuil 60 €, frais 8 €. Les durées et affectations des communes sont conservées. Les nouvelles communes sans barème à plus de 22 et jusqu’à 25 minutes sont rattachées à la zone 09 ; celles à plus de 25 et jusqu’à 30 minutes à la zone 10. Les communes non tarifées à 22 minutes ou moins restent à confirmer par téléphone, notamment Aspach-le-Bas et Aspach-Michelbach.",
   "zones": [
     {
       "id": "01",
       "title": "Thann / Vieux-Thann / Leimbach",
       "time": "Moins de 5 min",
-      "minimum": 15,
-      "fee": 2.5,
+      "minimum": 20,
+      "fee": 3,
       "towns": [
         "Thann",
         "Vieux-Thann",
@@ -35,8 +36,8 @@
       "id": "02",
       "title": "Cernay / Aspach / Roderen",
       "time": "5 à 10 min",
-      "minimum": 20,
-      "fee": 3.5,
+      "minimum": 25,
+      "fee": 4,
       "towns": [
         "Cernay",
         "Roderen"
@@ -46,8 +47,8 @@
       "id": "03",
       "title": "Bitschwiller-lès-Thann / Willer-sur-Thur",
       "time": "5 à 10 min",
-      "minimum": 20,
-      "fee": 3.5,
+      "minimum": 25,
+      "fee": 4,
       "towns": [
         "Bitschwiller-lès-Thann",
         "Willer-sur-Thur"
@@ -57,8 +58,8 @@
       "id": "04",
       "title": "Wittelsheim / Staffelfelden",
       "time": "10 à 15 min",
-      "minimum": 30,
-      "fee": 4.5,
+      "minimum": 35,
+      "fee": 5,
       "towns": [
         "Wittelsheim",
         "Staffelfelden"
@@ -68,8 +69,8 @@
       "id": "05",
       "title": "Saint-Amarin / Fellering",
       "time": "12 à 15 min",
-      "minimum": 35,
-      "fee": 5,
+      "minimum": 40,
+      "fee": 5.5,
       "towns": [
         "Saint-Amarin",
         "Fellering"
@@ -79,8 +80,8 @@
       "id": "06",
       "title": "Masevaux-Niederbruck",
       "time": "15 à 20 min",
-      "minimum": 35,
-      "fee": 5,
+      "minimum": 40,
+      "fee": 5.5,
       "towns": [
         "Masevaux-Niederbruck"
       ]
@@ -89,8 +90,8 @@
       "id": "07",
       "title": "Soultz-Haut-Rhin / Guebwiller",
       "time": "15 à 20 min",
-      "minimum": 40,
-      "fee": 6,
+      "minimum": 45,
+      "fee": 6.5,
       "towns": [
         "Soultz-Haut-Rhin",
         "Guebwiller"
@@ -100,8 +101,8 @@
       "id": "08",
       "title": "Lutterbach / Pfastatt / Reiningue",
       "time": "18 à 22 min",
-      "minimum": 45,
-      "fee": 6.5,
+      "minimum": 50,
+      "fee": 7,
       "towns": [
         "Lutterbach",
         "Pfastatt",
@@ -112,8 +113,8 @@
       "id": "09",
       "title": "Mulhouse / Illzach / Kingersheim et alentours",
       "time": "Plus de 22 à 25 min",
-      "minimum": 50,
-      "fee": 7,
+      "minimum": 55,
+      "fee": 7.5,
       "routeRangeMinutes": {
         "lowerExclusive": 22,
         "upperInclusive": 25
@@ -154,8 +155,8 @@
       "id": "10",
       "title": "Riedisheim / Rixheim / Wittenheim et alentours",
       "time": "Plus de 25 à 30 min",
-      "minimum": 55,
-      "fee": 7.5,
+      "minimum": 60,
+      "fee": 8,
       "routeRangeMinutes": {
         "lowerExclusive": 25,
         "upperInclusive": 30
