@@ -206,25 +206,66 @@ button:focus-visible {
 .nav-link:hover::after {
   width: 100%;
 }
-.header-call {
-  border: 1px solid #e9a83b5c;
+.header-snap {
+  border: 1px solid #fffc00;
   border-radius: 7px;
   padding: 10px 14px;
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--gold-light);
+  background: #fffc00;
+  color: var(--ink);
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   white-space: nowrap;
 }
-.header-call .icon {
+.header-snap .icon {
   width: 17px;
   height: 17px;
 }
-.header-call:hover {
-  background: #e9a83b15;
+.header-snap:hover {
+  background: #fffe80;
 }
+
+.button-snap {
+  background: #fffc00;
+  color: var(--ink);
+  font-size: 16px;
+  gap: 11px;
+}
+.button-snap:hover {
+  background: #fffe80;
+}
+.button-snap small {
+  display: block;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.phone-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #8a98a259;
+}
+.phone-icon .icon {
+  width: 20px;
+  height: 20px;
+}
+.hero-phone > .icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  color: #8d9eaa;
+}
+.contact-secondary .phone-icon {
+  width: 42px;
+  height: 42px;
+}
+
 .menu-toggle {
   display: none;
 }
@@ -365,7 +406,7 @@ button:focus-visible {
   letter-spacing: 1.8px;
   color: #b8c2c8;
 }
-.hero-snap {
+.hero-phone {
   display: inline-flex;
   align-items: center;
   gap: 11px;
@@ -385,13 +426,13 @@ button:focus-visible {
   height: 22px;
   stroke-width: 1.7;
 }
-.hero-snap small {
+.hero-phone small {
   display: block;
   font-size: 8px;
   letter-spacing: 1.35px;
   color: #aebac3;
 }
-.hero-snap strong {
+.hero-phone strong {
   font-size: 13px;
   font-weight: 600;
 }
@@ -401,7 +442,7 @@ button:focus-visible {
   margin-left: 5px;
   color: #8d9eaa;
 }
-.hero-snap:hover .snap-arrow {
+.hero-phone:hover .snap-arrow {
   color: var(--gold);
 }
 .hero-visual {
@@ -1626,7 +1667,7 @@ button:focus-visible {
   flex-direction: column;
   gap: 15px;
 }
-.contact-phone {
+.contact-primary {
   background: var(--navy);
   color: var(--cream);
   border-radius: 11px;
@@ -1634,7 +1675,7 @@ button:focus-visible {
   box-shadow: 0 10px 30px #76531b12;
   transition: transform 0.2s;
 }
-.contact-phone:hover {
+.contact-primary:hover {
   transform: translateY(-3px);
 }
 .contact-label {
@@ -1650,7 +1691,7 @@ button:focus-visible {
   width: 17px;
   height: 17px;
 }
-.contact-phone > strong {
+.contact-primary > strong {
   display: block;
   font: 700 clamp(35px, 4.3vw, 57px)/1 var(--display);
   white-space: nowrap;
@@ -1670,7 +1711,7 @@ button:focus-visible {
   height: 19px;
   color: var(--gold-light);
 }
-.contact-snap {
+.contact-secondary {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -1680,24 +1721,24 @@ button:focus-visible {
   border: 1px solid #fff7e152;
   transition: background 0.2s;
 }
-.contact-snap:hover {
+.contact-secondary:hover {
   background: #fff6dcca;
 }
-.contact-snap .snap-icon {
+.contact-secondary .snap-icon {
   width: 42px;
   height: 42px;
   border: 1px solid #c8b9254a;
 }
-.contact-snap small {
+.contact-secondary small {
   display: block;
   font-size: 8px;
   letter-spacing: 1.4px;
 }
-.contact-snap strong {
+.contact-secondary strong {
   font-size: 21px;
   letter-spacing: -0.4px;
 }
-.contact-snap > .icon {
+.contact-secondary > .icon {
   margin-left: auto;
   width: 20px;
   height: 20px;
@@ -1827,10 +1868,10 @@ button:focus-visible {
   .navigation {
     gap: 18px;
   }
-  .header-call span {
+  .header-snap span {
     display: none;
   }
-  .header-call {
+  .header-snap {
     padding: 10px;
   }
   .hero-inner {
@@ -1945,7 +1986,7 @@ button:focus-visible {
   .nav-link {
     font-size: 11px;
   }
-  .header-call {
+  .header-snap {
     display: none;
   }
   .hero-inner {
@@ -1992,7 +2033,7 @@ button:focus-visible {
     margin-right: -140px;
     width: 500px;
   }
-  .hero-snap {
+  .hero-phone {
     margin-top: 23px;
   }
   .service-grid {
@@ -2127,16 +2168,16 @@ button:focus-visible {
   .contact-copy .eyebrow {
     font-size: 8px;
   }
-  .contact-phone {
+  .contact-primary {
     padding: 25px 20px;
   }
-  .contact-phone > strong {
+  .contact-primary > strong {
     font-size: 42px;
   }
-  .contact-snap {
+  .contact-secondary {
     padding: 17px;
   }
-  .contact-snap strong {
+  .contact-secondary strong {
     font-size: 19px;
   }
   .contact-copy > p:not(.eyebrow) {
@@ -2283,16 +2324,16 @@ button:focus-visible {
     width: 17px;
     height: 17px;
   }
-  .hero-snap {
+  .hero-phone {
     margin-top: 22px;
   }
-  .hero-snap small {
+  .hero-phone small {
     font-size: 7px;
   }
-  .hero-snap strong {
+  .hero-phone strong {
     font-size: 12px;
   }
-  .hero-snap .snap-icon {
+  .hero-phone .snap-icon {
     width: 33px;
     height: 33px;
     border-radius: 8px;
@@ -2741,17 +2782,17 @@ button:focus-visible {
   .contact-methods {
     gap: 12px;
   }
-  .contact-phone {
+  .contact-primary {
     padding: 24px;
   }
-  .contact-phone > strong {
+  .contact-primary > strong {
     font-size: clamp(38px, 10.5vw, 58px);
     margin: 18px 0 22px;
   }
-  .contact-snap {
+  .contact-secondary {
     padding: 18px 22px;
   }
-  .contact-snap strong {
+  .contact-secondary strong {
     font-size: 23px;
   }
   .site-footer {
@@ -2843,13 +2884,14 @@ button:focus-visible {
   }
   .mobile-call {
     flex: 0.85;
-    background: var(--gold);
-    color: var(--ink);
+    color: var(--cream);
+    border: 1px solid #ffffff2e;
   }
   .mobile-snap {
     flex: 1.15;
-    color: #fffc00;
-    border: 1px solid #ffffff2e;
+    background: #fffc00;
+    color: var(--ink);
+    border: 1px solid #fffc00;
   }
   .mobile-snap span {
     font-size: 10px;
@@ -2905,10 +2947,10 @@ button:focus-visible {
   .category-heading h3 {
     font-size: 25px;
   }
-  .contact-phone > strong {
+  .contact-primary > strong {
     font-size: 37px;
   }
-  .contact-phone {
+  .contact-primary {
     padding: 23px 20px;
   }
   .catalogue-cta p strong {
@@ -3021,7 +3063,7 @@ button:focus-visible {
   .site-header,
   .hero-visual,
   .hero-actions,
-  .hero-snap,
+  .hero-phone,
   .ticker,
   .filters,
   .catalogue-cta,

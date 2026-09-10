@@ -176,6 +176,14 @@
     "price": 2.5
   },
   {
+    "id": "red-bull-abricot-fraise-25cl",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Abricot-Fraise · Apricot Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
     "id": "rioba-orange-25cl",
     "category": "softs",
     "brand": "RIOBA",
@@ -212,7 +220,7 @@
     "category": "snacks-sales",
     "brand": "Pringles",
     "name": "Crème & Oignon",
-    "size": "40 g",
+    "size": "70 g",
     "price": 2
   },
   {

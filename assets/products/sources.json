@@ -129,11 +129,12 @@
   },
   {
     "name": "pringles-creme-oignon",
-    "url": "https://www.supergroup.fr/media/catalog/product/8/0/8019847_A.png",
-    "source": "https://www.supergroup.fr/tuiles-creme-oignons-pringles-boite-40g-12-pringles-tuiles-ref-8019847.html",
-    "provider": "Supergroup — fournisseur professionnel",
+    "url": "https://images.kglobalservices.com/www.pringles.com_ua_en/en_ua/product/product_8492004/prod_img-8511529_05053990125050_a1n1_fr-ch.jpg",
+    "source": "https://www.pringles.com/easterneurope/en/products/40g/pringles-sour-cream-%26-onion-70g.html",
+    "provider": "Pringles — site officiel",
     "file": "assets/products/pringles-creme-oignon.webp",
-    "retrieved": "2026-09-06"
+    "retrieved": "2026-09-10",
+    "verification": "Crème & Oignon / Sour Cream & Onion, pot 70 g, EAN 5053990125050 confirmé par la liste produit Kellogg’s Vantage ; correction demandée par le commerçant, prix maintenu à 2,00 €. Le premier visuel du site France (115 g) a été écarté."
   },
   {
     "name": "pringles-paprika",
@@ -320,5 +321,15 @@
     "file": "assets/products/maoam-220g.webp",
     "retrieved": "2026-09-07",
     "verification": "Bloxx, paquet de 10 × 22 g = 220 g, référence Action 2531068 correspondant au ticket."
+  },
+  {
+    "name": "red-bull-abricot-fraise-25cl",
+    "source": "https://www.supergroup.fr/red-bull-apricot-edition-abricot-fraise-canette-25-cl-24-red-bull-ref-8104119.html",
+    "reference": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-apricot-edition",
+    "url": "https://www.supergroup.fr/media/catalog/product/8/1/8104119_A_RED-BULL-APRICOT-EDITION-CAN-25CL24.png",
+    "file": "assets/products/red-bull-abricot-fraise-25cl.webp",
+    "provider": "Supergroup — fournisseur professionnel",
+    "retrieved": "2026-09-10",
+    "verification": "The Apricot Edition, Abricot-Fraise, canette 25 cl. Contenance confirmée par le commerçant le 10 septembre 2026 ; prix demandé : 3,00 €."
   }
 ]
