@@ -57,7 +57,7 @@ function filterCatalogue(value) {
     if (!section.hidden)
       total += section.querySelectorAll(".product-card").length;
   });
-  count.textContent = `${total} produits à découvrir`;
+  count.textContent = `${total} produit${total > 1 ? "s" : ""} à découvrir`;
 }
 
 document.querySelector(".filters").hidden = false;

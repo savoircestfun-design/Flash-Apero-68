@@ -72,6 +72,14 @@
     "price": 7
   },
   {
+    "id": "poliakov-vodka-70cl",
+    "category": "grandes-bouteilles",
+    "brand": "Poliakov",
+    "name": "Vodka · 37,5 % vol.",
+    "size": "70 cl",
+    "price": 20
+  },
+  {
     "id": "coca-cola-original-33cl",
     "category": "softs",
     "brand": "Coca-Cola",
@@ -180,6 +188,46 @@
     "category": "softs",
     "brand": "Red Bull",
     "name": "Abricot-Fraise · Apricot Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-white-25cl",
+    "name": "Coco-açaï · White Edition",
+    "category": "softs",
+    "brand": "Red Bull",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-agrumes-25cl",
+    "name": "Agrumes · Summer Edition",
+    "category": "softs",
+    "brand": "Red Bull",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-blue-25cl",
+    "name": "Myrtille · Blue Edition",
+    "category": "softs",
+    "brand": "Red Bull",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-sea-blue-25cl",
+    "name": "Juneberry · Sea Blue Edition",
+    "category": "softs",
+    "brand": "Red Bull",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-red-25cl",
+    "name": "Pastèque · Red Edition",
+    "category": "softs",
+    "brand": "Red Bull",
     "size": "25 cl",
     "price": 3
   },

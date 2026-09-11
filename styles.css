@@ -720,6 +720,8 @@ button:focus-visible {
 }
 .filters {
   display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
   gap: 8px;
 }
 .filter {
@@ -819,7 +821,8 @@ button:focus-visible {
 .soft-grid {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
-.spirit-grid {
+.spirit-grid,
+.bottle-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .spirit-offer {
@@ -1866,7 +1869,7 @@ button:focus-visible {
     gap: 16px;
   }
   .navigation {
-    gap: 18px;
+    gap: 12px;
   }
   .header-snap span {
     display: none;
@@ -1981,7 +1984,7 @@ button:focus-visible {
     font-size: 26px;
   }
   .navigation {
-    gap: 14px;
+    gap: 8px;
   }
   .nav-link {
     font-size: 11px;
@@ -2089,7 +2092,8 @@ button:focus-visible {
   .product-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .spirit-grid {
+  .spirit-grid,
+  .bottle-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .soft-grid {
@@ -2511,6 +2515,7 @@ button:focus-visible {
   }
   .filters {
     width: 100%;
+    flex-wrap: nowrap;
     gap: 7px;
     overflow-x: auto;
     padding: 4px 3px 7px;

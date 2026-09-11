@@ -331,5 +331,59 @@
     "provider": "Supergroup — fournisseur professionnel",
     "retrieved": "2026-09-10",
     "verification": "The Apricot Edition, Abricot-Fraise, canette 25 cl. Contenance confirmée par le commerçant le 10 septembre 2026 ; prix demandé : 3,00 €."
+  },
+  {
+    "name": "red-bull-white-25cl",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/b38d937224/fr_cc_250ml_the-white-edition_country_rgb_do241606_cold_closed_front_com_full.png/m/400x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-white-edition",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-white-25cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Red Bull Coco-açaï · White Edition, 25 cl. Prix de vente demandé par le commerçant : 3 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "red-bull-agrumes-25cl",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f5ed7076da/fr_sl_250ml_ac_the-summer-edition_country_rgb_packrq-4052_cold_closed_front_com_full.png/m/400x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-summer-edition",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-agrumes-25cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Red Bull Agrumes · Summer Edition, 25 cl. Prix de vente demandé par le commerçant : 3 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "red-bull-blue-25cl",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f90af5b697/fr_bl_250ml_the-blue-edition_country_rgb_do241604_cold_closed_front_com_full.png/m/400x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-blue-edition",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-blue-25cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Red Bull Myrtille · Blue Edition, 25 cl. Prix de vente demandé par le commerçant : 3 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "red-bull-sea-blue-25cl",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/870x2200/b65720f44d/fr_jb_250ml_the-sea-blue-edition_country_rgb_do243065_cold_closed_front_com_25.png/m/400x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-sea-blue-edition",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-sea-blue-25cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Red Bull Juneberry · Sea Blue Edition, 25 cl. Prix de vente demandé par le commerçant : 3 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "red-bull-red-25cl",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/8c95e7a5d0/fr_wm_250ml_the-red-edition_country_rgb_do241605_cold_closed_front_com_full.png/m/400x0",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-red-edition",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-red-25cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Red Bull Pastèque · Red Edition, 25 cl. Prix de vente demandé par le commerçant : 3 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "poliakov-vodka-70cl",
+    "url": "https://media.carrefour.fr/media/referential/media/1c615d85160744ceb480b2bb3067a3eb/p_1500x1500/03147690061007_C1N1_s27.png",
+    "source": "https://www.carrefour.fr/p/vodka-pure-grain-37-5-poliakov-3147690061007",
+    "provider": "Carrefour — fiche produit 70 cl / 37,5 %",
+    "file": "assets/products/poliakov-vodka-70cl.webp",
+    "retrieved": "2026-09-11",
+    "verification": "Poliakov Vodka · 37,5 % vol., 70 cl. Prix de vente demandé par le commerçant : 20 €. Image du format et de la variante correspondants, contrôlée visuellement."
   }
 ]

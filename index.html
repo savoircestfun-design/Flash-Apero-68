@@ -102,6 +102,7 @@
           <a href="#accueil" class="nav-link">Accueil</a>
           <a href="#bieres" class="nav-link">Bières</a>
           <a href="#spiritueux" class="nav-link">Spiritueux</a>
+          <a href="#grandes-bouteilles" class="nav-link">Bouteilles</a>
           <a href="#softs" class="nav-link">Softs</a>
           <a href="#snacks" class="nav-link">Snacks</a>
           <a href="#accessoires" class="nav-link">Accessoires</a>
@@ -298,7 +299,7 @@
                 data-filter="all"
                 aria-pressed="true"
               >
-                Tout <span data-catalogue-total>40</span>
+                Tout <span data-catalogue-total>46</span>
               </button>
               <button
                 type="button"
@@ -319,6 +320,16 @@
                 <svg class="icon" aria-hidden="true">
                   <use href="./assets/icons/sprite.svg#bottle"></use></svg
                 >Spiritueux
+              </button>
+              <button
+                type="button"
+                class="filter"
+                data-filter="grandes-bouteilles"
+                aria-pressed="false"
+              >
+                <svg class="icon" aria-hidden="true">
+                  <use href="./assets/icons/sprite.svg#bottle"></use></svg
+                >Grandes bouteilles
               </button>
               <button
                 type="button"
@@ -352,7 +363,7 @@
               </button>
             </div>
             <p class="catalogue-count" role="status" aria-live="polite">
-              40 produits à découvrir
+              46 produits à découvrir
             </p>
           </div>
           <!-- CATALOGUE_START -->
@@ -611,6 +622,48 @@
 
           <section
             class="product-category"
+            id="grandes-bouteilles"
+            data-category="grandes-bouteilles"
+            aria-labelledby="title-grandes-bouteilles"
+          >
+            <div class="category-heading">
+              <div class="category-heading-title">
+                <span class="category-icon"
+                  ><svg class="icon" aria-hidden="true">
+                    <use href="./assets/icons/sprite.svg#bottle"></use></svg
+                ></span>
+                <h3 id="title-grandes-bouteilles">GRANDES BOUTEILLES</h3>
+                <span class="category-total">01</span>
+              </div>
+              <p>Les formats 70 cl et plus, à l’unité.</p>
+            </div>
+
+            <div class="product-grid bottle-grid">
+              <article class="product-card" data-product="poliakov-vodka-70cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/poliakov-vodka-70cl.webp"
+                    alt="Poliakov Vodka · 37,5 % vol. — 70 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Poliakov</h4>
+                  <p class="product-variant">Vodka · 37,5 % vol.</p>
+                  <div class="product-bottom">
+                    <span class="product-size">70 cl</span
+                    ><strong class="product-price">20,00 €</strong>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section
+            class="product-category"
             id="softs"
             data-category="softs"
             aria-labelledby="title-softs"
@@ -622,7 +675,7 @@
                     <use href="./assets/icons/sprite.svg#drink"></use></svg
                 ></span>
                 <h3 id="title-softs">SOFTS</h3>
-                <span class="category-total">16</span>
+                <span class="category-total">21</span>
               </div>
               <p>Le plein de fraîcheur, sans alcool.</p>
             </div>
@@ -902,6 +955,106 @@
                 <div class="product-details">
                   <h4>Red Bull</h4>
                   <p class="product-variant">Abricot-Fraise · Apricot Edition</p>
+                  <div class="product-bottom">
+                    <span class="product-size">25 cl</span
+                    ><strong class="product-price">3,00 €</strong>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product="red-bull-white-25cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/red-bull-white-25cl.webp"
+                    alt="Red Bull Coco-açaï · White Edition — 25 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Red Bull</h4>
+                  <p class="product-variant">Coco-açaï · White Edition</p>
+                  <div class="product-bottom">
+                    <span class="product-size">25 cl</span
+                    ><strong class="product-price">3,00 €</strong>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product="red-bull-agrumes-25cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/red-bull-agrumes-25cl.webp"
+                    alt="Red Bull Agrumes · Summer Edition — 25 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Red Bull</h4>
+                  <p class="product-variant">Agrumes · Summer Edition</p>
+                  <div class="product-bottom">
+                    <span class="product-size">25 cl</span
+                    ><strong class="product-price">3,00 €</strong>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product="red-bull-blue-25cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/red-bull-blue-25cl.webp"
+                    alt="Red Bull Myrtille · Blue Edition — 25 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Red Bull</h4>
+                  <p class="product-variant">Myrtille · Blue Edition</p>
+                  <div class="product-bottom">
+                    <span class="product-size">25 cl</span
+                    ><strong class="product-price">3,00 €</strong>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product="red-bull-sea-blue-25cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/red-bull-sea-blue-25cl.webp"
+                    alt="Red Bull Juneberry · Sea Blue Edition — 25 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Red Bull</h4>
+                  <p class="product-variant">Juneberry · Sea Blue Edition</p>
+                  <div class="product-bottom">
+                    <span class="product-size">25 cl</span
+                    ><strong class="product-price">3,00 €</strong>
+                  </div>
+                </div>
+              </article>
+              <article class="product-card" data-product="red-bull-red-25cl">
+                <div class="product-image">
+                  <img
+                    src="./assets/products/red-bull-red-25cl.webp"
+                    alt="Red Bull Pastèque · Red Edition — 25 cl"
+                    width="230"
+                    height="230"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="product-details">
+                  <h4>Red Bull</h4>
+                  <p class="product-variant">Pastèque · Red Edition</p>
                   <div class="product-bottom">
                     <span class="product-size">25 cl</span
                     ><strong class="product-price">3,00 €</strong>
