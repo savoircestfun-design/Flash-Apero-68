@@ -9,7 +9,7 @@
     ]
   },
   "maximumRouteMinutes": 30,
-  "method": "Communes françaises dont la mairie est accessible en voiture en 1 800 secondes maximum selon OSRM/OpenStreetMap, sans trafic en temps réel. Présélection à 65 km à vol d’oiseau dans les départements 68, 90, 88, 70 et 25 ; 950 itinéraires calculés. Disponibilité et délai à confirmer selon l’adresse.",
+  "method": "Communes françaises dont la mairie est accessible en voiture en 1 800 secondes maximum selon OSRM/OpenStreetMap, sans trafic en temps réel. Présélection à 65 km à vol d’oiseau dans les départements 68, 90, 88, 70 et 25 ; 950 itinéraires calculés. Disponibilité et délai à confirmer selon l’adresse. Lautenbach (68177) a été ajoutée à la demande du commerçant le 11 septembre 2026 : trajet calculé de 1 913,7 secondes, soit environ 32 minutes, barème de la zone 10.",
   "sources": [
     "https://geo.api.gouv.fr/decoupage-administratif/communes",
     "https://data.geopf.fr/geocodage/search",
@@ -183,6 +183,7 @@
         "Lacollonge",
         "Lagrange",
         "Larivière",
+        "Lautenbach",
         "Leval",
         "Orschwihr",
         "Petitefontaine",
@@ -1193,6 +1194,27 @@
       "snapMeters": 16.99467691
     },
     {
+      "code": "68177",
+      "name": "Lautenbach",
+      "postcodes": [
+        "68610"
+      ],
+      "aliases": [],
+      "zone": "10",
+      "routeSeconds": 1913.7,
+      "routeMeters": 30182.8,
+      "destination": [
+        7.1593,
+        47.9413
+      ],
+      "snapMeters": 12.70327261,
+      "routeCheckedOn": "2026-09-11",
+      "serviceOverride": {
+        "requestedOn": "2026-09-11",
+        "reason": "Commune ajoutée à la demande explicite du commerçant, au barème de la zone 10, malgré un trajet légèrement supérieur à 30 minutes."
+      }
+    },
+    {
       "code": "68179",
       "name": "Lauw",
       "postcodes": [
@@ -2194,5 +2216,6 @@
       ],
       "snapMeters": 12.32139713
     }
-  ]
+  ],
+  "deliveryNote": "Lautenbach est également desservie en zone 10 : prévoir environ 32 minutes de trajet."
 }
