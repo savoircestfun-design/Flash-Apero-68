@@ -385,5 +385,23 @@
     "file": "assets/products/poliakov-vodka-70cl.webp",
     "retrieved": "2026-09-11",
     "verification": "Poliakov Vodka · 37,5 % vol., 70 cl. Prix de vente demandé par le commerçant : 20 €. Image du format et de la variante correspondants, contrôlée visuellement."
+  },
+  {
+    "name": "red-bull-peche-blanche-25cl",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-peach-edition",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/870x2200/0ff7b03002/fr_wp_250ml_ac_the-peach-edition_country_rgb_packrq-3638_cold_closed_front_com_25.png/m/400x0",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-peche-blanche-25cl.webp",
+    "retrieved": "2026-09-19",
+    "verification": "Pêche blanche · Peach Edition, canette française 25 cl. Packshot officiel contrôlé visuellement. Prix de vente de 3 € selon le barème du commerçant pour tous les Red Bull aromatisés."
+  },
+  {
+    "name": "red-bull-mure-vanille-25cl",
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-ice-edition",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/fd6c590784/fr_igb_250ml_ac_the-ice-edition_country_rgb_packrq-3196_cold_closed_front_com_full.png/m/400x0",
+    "provider": "Red Bull — site officiel français",
+    "file": "assets/products/red-bull-mure-vanille-25cl.webp",
+    "retrieved": "2026-09-19",
+    "verification": "Mûre givrée & Vanille · Ice Edition, canette française 25 cl. Packshot officiel contrôlé visuellement. Prix de vente de 3 € selon le barème du commerçant pour tous les Red Bull aromatisés."
   }
 ]

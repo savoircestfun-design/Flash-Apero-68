@@ -232,6 +232,22 @@
     "price": 3
   },
   {
+    "id": "red-bull-peche-blanche-25cl",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Pêche blanche · Peach Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-mure-vanille-25cl",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Mûre givrée & Vanille · Ice Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
     "id": "rioba-orange-25cl",
     "category": "softs",
     "brand": "RIOBA",
