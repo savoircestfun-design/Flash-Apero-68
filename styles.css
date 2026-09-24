@@ -1429,6 +1429,7 @@ button:focus-visible {
 .zone-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
   gap: 16px;
 }
 .zone-card {
@@ -1478,6 +1479,9 @@ button:focus-visible {
 }
 .zone-town-list li {
   overflow-wrap: anywhere;
+}
+.zone-card:not(.zone-extended) .zone-town-list {
+  grid-template-columns: minmax(0, 1fr);
 }
 @media (min-width: 901px) {
   .zone-card.zone-extended {

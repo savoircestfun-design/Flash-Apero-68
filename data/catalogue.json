@@ -248,6 +248,22 @@
     "price": 3
   },
   {
+    "id": "red-bull-pomme-fuji-gingembre-25cl",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Pomme Fuji & Gingembre · Winter Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
+    "id": "red-bull-pistache-25cl",
+    "category": "softs",
+    "brand": "Red Bull",
+    "name": "Pistache & Fruits des bois · Winter Edition",
+    "size": "25 cl",
+    "price": 3
+  },
+  {
     "id": "rioba-orange-25cl",
     "category": "softs",
     "brand": "RIOBA",

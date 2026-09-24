@@ -18,35 +18,41 @@
     "https://www.openstreetmap.org/copyright"
   ],
   "tariffsUpdatedOn": "2026-09-10",
-  "tariffNote": "À la demande du commerçant le 10 septembre 2026, le seuil de livraison gratuite augmente de 5 € et les frais sous ce seuil de 0,50 € dans chacune des dix zones, par rapport au barème précédent. Zone 09 : seuil 55 €, frais 7,50 € ; zone 10 : seuil 60 €, frais 8 €. Les durées et affectations des communes sont conservées. Les nouvelles communes sans barème à plus de 22 et jusqu’à 25 minutes sont rattachées à la zone 09 ; celles à plus de 25 et jusqu’à 30 minutes à la zone 10. Les communes non tarifées à 22 minutes ou moins restent à confirmer par téléphone, notamment Aspach-le-Bas et Aspach-Michelbach.",
+  "tariffNote": "Le barème du 10 septembre 2026 est conservé : hausse précédente de 5 € du seuil de livraison gratuite et de 0,50 € des frais dans chaque zone. Zone 09 : gratuit dès 55 €, sinon 7,50 € ; zone 10 : gratuit dès 60 €, sinon 8 €. Le 25 septembre 2026, les 35 communes encore sans tarif ont été rattachées aux secteurs existants à la demande du commerçant. Les tarifs et rattachements précédents, y compris Lautenbach en zone 10, sont inchangés.",
   "zones": [
     {
       "id": "01",
       "title": "Thann / Vieux-Thann / Leimbach",
-      "time": "Moins de 5 min",
+      "time": "Moins de 10 min",
       "minimum": 20,
       "fee": 3,
       "towns": [
+        "Leimbach",
         "Thann",
-        "Vieux-Thann",
-        "Leimbach"
+        "Vieux-Thann"
       ]
     },
     {
       "id": "02",
-      "title": "Cernay / Aspach / Roderen",
-      "time": "5 à 10 min",
+      "title": "Cernay / Aspach / Roderen et alentours",
+      "time": "8 à 16 min",
       "minimum": 25,
       "fee": 4,
       "towns": [
+        "Aspach-le-Bas",
+        "Aspach-Michelbach",
         "Cernay",
-        "Roderen"
+        "Rammersmatt",
+        "Roderen",
+        "Schweighouse-Thann",
+        "Steinbach",
+        "Uffholtz"
       ]
     },
     {
       "id": "03",
       "title": "Bitschwiller-lès-Thann / Willer-sur-Thur",
-      "time": "5 à 10 min",
+      "time": "7 à 10 min",
       "minimum": 25,
       "fee": 4,
       "towns": [
@@ -56,57 +62,86 @@
     },
     {
       "id": "04",
-      "title": "Wittelsheim / Staffelfelden",
-      "time": "10 à 15 min",
+      "title": "Wittelsheim / Staffelfelden et alentours",
+      "time": "16 à 21 min",
       "minimum": 35,
       "fee": 5,
       "towns": [
-        "Wittelsheim",
-        "Staffelfelden"
+        "Berrwiller",
+        "Staffelfelden",
+        "Wattwiller",
+        "Wittelsheim"
       ]
     },
     {
       "id": "05",
-      "title": "Saint-Amarin / Fellering",
-      "time": "12 à 15 min",
+      "title": "Saint-Amarin / Fellering et alentours",
+      "time": "13 à 21 min",
       "minimum": 40,
       "fee": 5.5,
       "towns": [
-        "Saint-Amarin",
-        "Fellering"
+        "Fellering",
+        "Geishouse",
+        "Goldbach-Altenbach",
+        "Husseren-Wesserling",
+        "Malmerspach",
+        "Mitzach",
+        "Moosch",
+        "Ranspach",
+        "Saint-Amarin"
       ]
     },
     {
       "id": "06",
-      "title": "Masevaux-Niederbruck",
-      "time": "15 à 20 min",
+      "title": "Masevaux-Niederbruck et alentours",
+      "time": "13 à 25 min",
       "minimum": 40,
       "fee": 5.5,
       "towns": [
-        "Masevaux-Niederbruck"
+        "Bourbach-le-Bas",
+        "Bourbach-le-Haut",
+        "Burnhaupt-le-Bas",
+        "Burnhaupt-le-Haut",
+        "Diefmatten",
+        "Guewenheim",
+        "Lauw",
+        "Le Haut Soultzbach",
+        "Masevaux-Niederbruck",
+        "Sentheim",
+        "Soppe-le-Bas"
       ]
     },
     {
       "id": "07",
-      "title": "Soultz-Haut-Rhin / Guebwiller",
-      "time": "15 à 20 min",
+      "title": "Soultz-Haut-Rhin / Guebwiller et alentours",
+      "time": "18 à 26 min",
       "minimum": 45,
       "fee": 6.5,
       "towns": [
-        "Soultz-Haut-Rhin",
-        "Guebwiller"
+        "Bollwiller",
+        "Feldkirch",
+        "Guebwiller",
+        "Hartmannswiller",
+        "Raedersheim",
+        "Soultz-Haut-Rhin"
       ]
     },
     {
       "id": "08",
-      "title": "Lutterbach / Pfastatt / Reiningue",
-      "time": "18 à 22 min",
+      "title": "Lutterbach / Pfastatt / Reiningue et alentours",
+      "time": "16 à 22 min",
       "minimum": 50,
       "fee": 7,
       "towns": [
+        "Bernwiller",
+        "Hecken",
+        "Heimsbrunn",
         "Lutterbach",
+        "Morschwiller-le-Bas",
         "Pfastatt",
-        "Reiningue"
+        "Reiningue",
+        "Richwiller",
+        "Sternenberg"
       ]
     },
     {
@@ -232,7 +267,7 @@
         "68700"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 707.6,
       "routeMeters": 7373,
       "destination": [
@@ -251,7 +286,7 @@
         "Aspach-le-Haut",
         "Michelbach"
       ],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 561.9,
       "routeMeters": 5554.4,
       "destination": [
@@ -365,7 +400,7 @@
       "aliases": [
         "Ammertzwiller"
       ],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1235,
       "routeMeters": 19877.8,
       "destination": [
@@ -381,7 +416,7 @@
         "68500"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "04",
       "routeSeconds": 1068.3,
       "routeMeters": 15551.2,
       "destination": [
@@ -413,7 +448,7 @@
         "68540"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "07",
       "routeSeconds": 1130.2,
       "routeMeters": 17934.1,
       "destination": [
@@ -429,7 +464,7 @@
         "68290"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 967.5,
       "routeMeters": 9978.2,
       "destination": [
@@ -445,7 +480,7 @@
         "68290"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1085.6,
       "routeMeters": 12847.5,
       "destination": [
@@ -560,7 +595,7 @@
         "68520"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1008.1,
       "routeMeters": 15677.8,
       "destination": [
@@ -576,7 +611,7 @@
         "68520"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1014.4,
       "routeMeters": 14363.5,
       "destination": [
@@ -608,7 +643,7 @@
         "68780"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1125.2,
       "routeMeters": 17063.3,
       "destination": [
@@ -672,7 +707,7 @@
         "68540"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "07",
       "routeSeconds": 1242.4,
       "routeMeters": 19192,
       "destination": [
@@ -784,7 +819,7 @@
         "68690"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 1195.8,
       "routeMeters": 12457.3,
       "destination": [
@@ -816,7 +851,7 @@
         "68760"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 967.7,
       "routeMeters": 11188.3,
       "destination": [
@@ -880,7 +915,7 @@
         "68116"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 839.7,
       "routeMeters": 9027.1,
       "destination": [
@@ -944,7 +979,7 @@
         "68500"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "07",
       "routeSeconds": 1130.2,
       "routeMeters": 18376.4,
       "destination": [
@@ -960,7 +995,7 @@
         "68210"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1296.1,
       "routeMeters": 19221,
       "destination": [
@@ -992,7 +1027,7 @@
         "68990"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1172.2,
       "routeMeters": 18784.8,
       "destination": [
@@ -1024,7 +1059,7 @@
         "68470"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 1188.9,
       "routeMeters": 12917.5,
       "destination": [
@@ -1221,7 +1256,7 @@
         "68290"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1245.4,
       "routeMeters": 14234.3,
       "destination": [
@@ -1240,7 +1275,7 @@
         "Soppe-le-Haut",
         "Mortzwiller"
       ],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1259.7,
       "routeMeters": 14661.8,
       "destination": [
@@ -1304,7 +1339,7 @@
         "68550"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 896.7,
       "routeMeters": 9109.4,
       "destination": [
@@ -1355,7 +1390,7 @@
         "68470"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 1090.1,
       "routeMeters": 12086.4,
       "destination": [
@@ -1387,7 +1422,7 @@
         "68690"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 813,
       "routeMeters": 7785.1,
       "destination": [
@@ -1403,7 +1438,7 @@
         "68790"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1165.9,
       "routeMeters": 19130.8,
       "destination": [
@@ -1532,7 +1567,7 @@
         "68190"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "07",
       "routeSeconds": 1297.2,
       "routeMeters": 21734.5,
       "destination": [
@@ -1548,7 +1583,7 @@
         "68800"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 728.6,
       "routeMeters": 7367.8,
       "destination": [
@@ -1564,7 +1599,7 @@
         "68470"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "05",
       "routeSeconds": 1099.8,
       "routeMeters": 11942.9,
       "destination": [
@@ -1596,7 +1631,7 @@
         "68120"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1272.2,
       "routeMeters": 18325.7,
       "destination": [
@@ -1804,7 +1839,7 @@
         "68520"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 915.9,
       "routeMeters": 9466.1,
       "destination": [
@@ -1820,7 +1855,7 @@
         "68780"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1018.2,
       "routeMeters": 11526.4,
       "destination": [
@@ -1852,7 +1887,7 @@
         "68780"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "06",
       "routeSeconds": 1105,
       "routeMeters": 13075.4,
       "destination": [
@@ -1919,7 +1954,7 @@
         "68700"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 761,
       "routeMeters": 7117,
       "destination": [
@@ -1935,7 +1970,7 @@
         "68780"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "08",
       "routeSeconds": 1312,
       "routeMeters": 19645.6,
       "destination": [
@@ -2015,7 +2050,7 @@
         "68700"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "02",
       "routeSeconds": 878,
       "routeMeters": 7361.7,
       "destination": [
@@ -2095,7 +2130,7 @@
         "68700"
       ],
       "aliases": [],
-      "zone": null,
+      "zone": "04",
       "routeSeconds": 1080,
       "routeMeters": 14095.9,
       "destination": [
@@ -2217,5 +2252,7 @@
       "snapMeters": 12.32139713
     }
   ],
-  "deliveryNote": "Lautenbach est également desservie en zone 10 : prévoir environ 32 minutes de trajet."
+  "deliveryNote": "Lautenbach est également desservie en zone 10 : prévoir environ 32 minutes de trajet.",
+  "zoneAssignmentsUpdatedOn": "2026-09-25",
+  "assignmentNote": "Les communes nouvellement tarifées sont rattachées par secteur géographique, en tenant compte des durées et distances OSRM déjà calculées : Cernay/Aspach/Roderen (02), Wittelsheim/Staffelfelden (04), vallée de la Thur autour de Saint-Amarin/Fellering (05), vallée de la Doller et accès par Burnhaupt/Soppe (06), Soultz/Guebwiller (07), ouest de Mulhouse et communes voisines au sud (08). Les durées affichées des zones 01 à 08 couvrent les trajets calculés des communes rattachées ; les plages des zones 09 et 10 ainsi que l’exception Lautenbach sont conservées."
 }

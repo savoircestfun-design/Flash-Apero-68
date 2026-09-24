@@ -403,5 +403,24 @@
     "file": "assets/products/red-bull-mure-vanille-25cl.webp",
     "retrieved": "2026-09-19",
     "verification": "Mûre givrée & Vanille · Ice Edition, canette française 25 cl. Packshot officiel contrôlé visuellement. Prix de vente de 3 € selon le barème du commerçant pour tous les Red Bull aromatisés."
+  },
+  {
+    "source": "https://www.carrefour.fr/p/boisson-energisante-gout-pomme-fuji-gingembre-the-winter-edition-red-bull-9002490278281",
+    "officialSource": "https://www.redbull.com/be-fr/energydrink/products/red-bull-apple-edition",
+    "url": "https://media.carrefour.fr/media/referential/media/ed77fcc2ce314fc4885e291b67ce947a/p_540x540/09002490278281_C1N1_s02.png",
+    "provider": "Carrefour — visuel produit français",
+    "verification": "Canette française Winter Edition 25 cl Pomme Fuji et Gingembre. La saveur est aussi référencée par Red Bull Belgique en Apple Edition 250 ml. Référence EAN 9002490278281. Packshot contrôlé visuellement. Prix de vente de 3 € demandé par le commerçant.",
+    "file": "assets/products/red-bull-pomme-fuji-gingembre-25cl.webp",
+    "retrieved": "2026-09-25",
+    "name": "red-bull-pomme-fuji-gingembre-25cl"
+  },
+  {
+    "source": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition",
+    "url": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/870x2200/4ad41eac5e/fr_pb_250ml_ac_the-winter-edition_country_rgb_packrq-4738_cold_closed_front_com_25.png/m/400x0",
+    "provider": "Red Bull — site officiel français",
+    "verification": "Winter Edition française au goût de Pistache & fruits des bois, 250 ml, version avec sucres. Packshot contrôlé visuellement. Prix de vente de 3 € demandé par le commerçant.",
+    "file": "assets/products/red-bull-pistache-25cl.webp",
+    "retrieved": "2026-09-25",
+    "name": "red-bull-pistache-25cl"
   }
 ]
