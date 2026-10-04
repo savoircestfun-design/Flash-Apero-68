@@ -1267,6 +1267,26 @@ button:focus-visible {
   color: #59676c;
   margin-top: 3px;
 }
+.town-route,
+.town-price,
+.town-delivery {
+  display: block;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+.town-route {
+  color: #59676c;
+}
+.town-price {
+  color: var(--ink);
+  font-weight: 600;
+  margin-top: 4px;
+}
+.town-delivery {
+  color: #59676c;
+  margin-top: 2px;
+}
 .town-rate {
   display: inline-flex;
   align-items: center;
@@ -1531,7 +1551,7 @@ button:focus-visible {
   margin: 0;
   margin-top: auto;
 }
-.zone-card dl > div:first-child {
+.zone-card .zone-minimum-order {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1545,15 +1565,15 @@ button:focus-visible {
 .zone-card dd {
   margin: 0;
 }
-.zone-card dl > div:first-child dd {
+.zone-card .zone-minimum-order dd {
   font: 700 37px/1 var(--display);
   color: var(--gold-light);
   white-space: nowrap;
 }
-.zone-card dl > div:first-child dd span {
+.zone-card .zone-minimum-order dd span {
   font-size: 23px;
 }
-.zone-card dl > div:last-child {
+.zone-card .zone-paid-delivery {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1561,13 +1581,39 @@ button:focus-visible {
   border-top: 1px solid #ffffff13;
   padding-top: 13px;
 }
-.zone-card dl > div:last-child dd {
+.zone-card .zone-paid-delivery dd {
   font-size: 10px;
   white-space: nowrap;
 }
-.zone-card dl > div:last-child dd span {
+.zone-card .zone-paid-delivery dd span {
   font-size: 8px;
   color: #9aacb8;
+}
+.zone-card .zone-minimum-order dt span {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 10px;
+}
+.zone-card .zone-free-delivery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid #ffffff13;
+  margin-top: 14px;
+  padding-top: 14px;
+}
+.zone-card .zone-free-delivery dt {
+  font-size: 12px;
+  color: #d3e5d1;
+}
+.zone-card .zone-free-delivery dd {
+  font: 700 28px/1 var(--display);
+  color: #d3e5d1;
+  white-space: nowrap;
+}
+.zone-card .zone-free-delivery dd span {
+  font-size: 18px;
 }
 .delivery-note {
   font-size: 10px;
@@ -1944,7 +1990,7 @@ button:focus-visible {
   .zone-card h4 {
     font-size: 12px;
   }
-  .zone-card dl > div:last-child {
+  .zone-card .zone-paid-delivery {
     flex-wrap: wrap;
     gap: 3px;
   }
@@ -2150,10 +2196,10 @@ button:focus-visible {
   .zone-card dt {
     font-size: 10px;
   }
-  .zone-card dl > div:last-child dd {
+  .zone-card .zone-paid-delivery dd {
     font-size: 12px;
   }
-  .zone-card dl > div:last-child dd span {
+  .zone-card .zone-paid-delivery dd span {
     font-size: 9px;
   }
   .delivery-section {
@@ -2713,16 +2759,16 @@ button:focus-visible {
   .zone-card dt {
     font-size: 10px;
   }
-  .zone-card dl > div:first-child {
+  .zone-card .zone-minimum-order {
     padding-bottom: 13px;
   }
-  .zone-card dl > div:first-child dd {
+  .zone-card .zone-minimum-order dd {
     font-size: 37px;
   }
-  .zone-card dl > div:last-child {
+  .zone-card .zone-paid-delivery {
     padding-top: 12px;
   }
-  .zone-card dl > div:last-child dd {
+  .zone-card .zone-paid-delivery dd {
     font-size: 11px;
   }
   .delivery-note {
@@ -3007,10 +3053,10 @@ button:focus-visible {
   .zone-card dt {
     font-size: 12px;
   }
-  .zone-card dl > div:last-child dd {
+  .zone-card .zone-paid-delivery dd {
     font-size: 13px;
   }
-  .zone-card dl > div:last-child dd span {
+  .zone-card .zone-paid-delivery dd span {
     font-size: 11px;
   }
   .zone-time {
