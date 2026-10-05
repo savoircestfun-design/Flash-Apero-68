@@ -85,7 +85,7 @@
     "brand": "Coca-Cola",
     "name": "Original · canette",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "coca-cola",
@@ -93,7 +93,7 @@
     "brand": "Coca-Cola",
     "name": "Sans Sucres",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "oasis-tropical",
@@ -101,7 +101,7 @@
     "brand": "Oasis",
     "name": "Tropical",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "oasis-pomme",
@@ -109,7 +109,7 @@
     "brand": "Oasis",
     "name": "Pomme Cassis Framboise",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "tropico",
@@ -117,7 +117,7 @@
     "brand": "Tropico",
     "name": "L’Original",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "lipton",
@@ -125,7 +125,7 @@
     "brand": "Lipton Ice Tea",
     "name": "Pêche",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "schweppes",
@@ -133,7 +133,7 @@
     "brand": "Schweppes",
     "name": "Agrum’",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "orangina",
@@ -141,7 +141,7 @@
     "brand": "Orangina",
     "name": "Original",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "pepsi",
@@ -149,7 +149,7 @@
     "brand": "Pepsi",
     "name": "Regular",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "7up-cherry",
@@ -157,7 +157,7 @@
     "brand": "7UP",
     "name": "Cherry",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "dada-litchi",
@@ -165,7 +165,7 @@
     "brand": "Dada",
     "name": "Litchi",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "dada-melon",
@@ -173,7 +173,7 @@
     "brand": "Dada",
     "name": "Melon",
     "size": "33 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "red-bull",
