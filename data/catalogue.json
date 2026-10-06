@@ -13,7 +13,7 @@
     "brand": "8.6",
     "name": "Original",
     "size": "50 cl",
-    "price": 2.8
+    "price": 3
   },
   {
     "id": "heineken",
@@ -21,7 +21,7 @@
     "brand": "Heineken",
     "name": "Original",
     "size": "50 cl",
-    "price": 2.8
+    "price": 3
   },
   {
     "id": "1664",
@@ -29,7 +29,7 @@
     "brand": "1664",
     "name": "Blonde",
     "size": "50 cl",
-    "price": 2.8
+    "price": 3
   },
   {
     "id": "desperados",
@@ -77,7 +77,7 @@
     "brand": "Poliakov",
     "name": "Vodka · 37,5 % vol.",
     "size": "70 cl",
-    "price": 20
+    "price": 22
   },
   {
     "id": "coca-cola-original-33cl",
@@ -269,7 +269,7 @@
     "brand": "RIOBA",
     "name": "Jus d’orange",
     "size": "25 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "rioba-pomme-25cl",
@@ -277,7 +277,7 @@
     "brand": "RIOBA",
     "name": "Pur jus de pomme",
     "size": "25 cl",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "pringles-hot-spicy",
@@ -285,7 +285,7 @@
     "brand": "Pringles",
     "name": "Hot & Spicy",
     "size": "40 g",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "pringles-paprika",
@@ -293,7 +293,7 @@
     "brand": "Pringles",
     "name": "Paprika",
     "size": "40 g",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "pringles-creme-oignon",
@@ -317,7 +317,7 @@
     "brand": "Lay’s",
     "name": "Nature",
     "size": "130 g",
-    "price": 1.8
+    "price": 2
   },
   {
     "id": "snickers",
@@ -374,14 +374,6 @@
     "name": "Bloxx · bonbons à mâcher",
     "size": "220 g",
     "price": 3
-  },
-  {
-    "id": "ocb",
-    "category": "accessoires",
-    "brand": "OCB",
-    "name": "Feuilles à rouler",
-    "size": "Le carnet",
-    "price": 2
   },
   {
     "id": "ocb-slim",
