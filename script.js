@@ -101,65 +101,6 @@ window.addEventListener("hashchange", () => revealAnchor(location.hash));
 window.addEventListener("popstate", () => revealAnchor(location.hash));
 revealAnchor(location.hash);
 
-// La liste reste consultable avec les accordéons natifs sans JavaScript.
-const townInput = document.querySelector("#town-search");
-const townGroups = [...document.querySelectorAll(".town-group")];
-const townItems = [...document.querySelectorAll(".town-item")];
-const townClear = document.querySelector(".town-clear");
-const townResults = document.querySelector(".town-results");
-const townEmpty = document.querySelector(".town-empty");
-const normalizeTown = (value) =>
-  value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase("fr")
-    .replace(/œ/g, "oe")
-    .replace(/æ/g, "ae")
-    .replace(/[^a-z0-9]/g, "");
-const townIndex = new Map(
-  townItems.map((item) => [item, normalizeTown(item.dataset.search)]),
-);
-let previousTownState = null;
-
-function searchTowns() {
-  const query = normalizeTown(townInput.value);
-  if (query && !previousTownState)
-    previousTownState = townGroups.map((group) => group.open);
-  let matches = 0;
-  townItems.forEach((item) => {
-    item.hidden = Boolean(query) && !townIndex.get(item).includes(query);
-    if (!item.hidden) matches++;
-  });
-  townGroups.forEach((group, index) => {
-    const total = group.querySelectorAll(".town-item:not([hidden])").length;
-    group.hidden = total === 0;
-    group.querySelector(".town-group-count").textContent =
-      `${total} commune${total > 1 ? "s" : ""}`;
-    if (query) group.open = total > 0;
-    else if (previousTownState) group.open = previousTownState[index];
-  });
-  if (!query) previousTownState = null;
-  townResults.textContent = query
-    ? `${matches} commune${matches > 1 ? "s" : ""} trouvée${matches > 1 ? "s" : ""}`
-    : `${townItems.length} communes · liste alphabétique`;
-  townClear.hidden = townInput.value.length === 0;
-  townEmpty.hidden = matches !== 0;
-}
-document.querySelector(".town-search").hidden = false;
-townInput.addEventListener("input", searchTowns);
-townInput.addEventListener("search", searchTowns);
-townClear.addEventListener("click", () => {
-  townInput.value = "";
-  searchTowns();
-  townInput.focus();
-});
-townInput.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && townInput.value) {
-    event.preventDefault();
-    townClear.click();
-  }
-});
-
 // A missing photo never hides a product name, size or price.
 document.querySelectorAll(".product-image img").forEach((img) => {
   const replace = () => {

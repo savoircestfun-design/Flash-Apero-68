@@ -1035,590 +1035,22 @@ button:focus-visible {
 .catalogue-cta > a:hover {
   color: #986616;
 }
-.delivery-section {
+.pickup-section {
   background: var(--navy);
   color: var(--cream);
   padding: 80px 0 64px;
-  position: relative;
 }
-.delivery-section .section-intro {
+.pickup-section .section-intro {
   margin-bottom: 30px;
 }
-.delivery-section .eyebrow {
+.pickup-section .eyebrow {
   color: var(--gold-light);
 }
-.delivery-section .gold-dot {
+.pickup-section .gold-dot {
   color: var(--gold);
 }
-.delivery-intro p {
-  font-size: 13px;
-  line-height: 1.9;
+.pickup-section .section-intro > p {
   color: #b0bdc6;
-}
-.text-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--gold-light);
-  font-size: 11px;
-  font-weight: 500;
-  margin-top: 12px;
-}
-.text-link .icon {
-  width: 17px;
-  height: 17px;
-}
-.text-link:hover {
-  text-decoration: underline;
-}
-.town-directory {
-  background: var(--cream);
-  color: var(--ink);
-  border: 1px solid #f3c35d50;
-  border-radius: 14px;
-  padding: 32px;
-  margin-bottom: 40px;
-}
-.town-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-.delivery-section .town-directory .eyebrow {
-  color: #806126;
-  font-size: 10px;
-  margin-bottom: 8px;
-}
-.town-heading h3 {
-  font: 700 42px/1.1 var(--display);
-  margin-bottom: 10px;
-}
-.town-title-end {
-  display: inline-block;
-  white-space: nowrap;
-}
-.town-heading p:not(.eyebrow),
-.town-guidance {
-  color: #56626a;
-  font-size: 13px;
-  line-height: 1.75;
-}
-.town-radius {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  padding: 15px 20px;
-  border-radius: 10px;
-  background: var(--gold-light);
-}
-.town-radius strong {
-  font: 700 54px/1 var(--display);
-}
-.town-radius strong span {
-  font-size: 27px;
-}
-.town-radius > span {
-  font-size: 10px;
-  margin-top: 4px;
-}
-.town-guidance {
-  margin-top: 20px;
-  max-width: 780px;
-}
-.town-search {
-  margin-top: 24px;
-}
-.town-search label {
-  display: block;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-.town-search-field {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border: 1px solid #a8aaa6;
-  background: #fff;
-  border-radius: 8px;
-  padding: 4px 8px 4px 16px;
-}
-.town-search-field:focus-within {
-  outline: 3px solid #bb7513;
-  outline-offset: 3px;
-}
-.town-search-field .icon {
-  color: #65716c;
-  width: 21px;
-  height: 21px;
-}
-.town-search-field input {
-  min-width: 0;
-  width: 100%;
-  height: 48px;
-  border: 0;
-  padding: 0;
-  outline: none;
-  border-radius: 0;
-  color: var(--ink);
-  background: transparent;
-  font-size: 16px;
-}
-.town-search-field input::placeholder {
-  color: #68736e;
-  opacity: 1;
-}
-.town-search-field input::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-  appearance: none;
-}
-.town-clear {
-  min-height: 44px;
-  border: 0;
-  border-radius: 5px;
-  background: #f0ede5;
-  padding: 6px 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-.town-clear:hover {
-  background: var(--gold-light);
-}
-.town-results {
-  font-size: 12px;
-  color: #56626a;
-  margin: 20px 0 12px;
-}
-.town-groups {
-  border-top: 1px solid #d8d6cd;
-}
-.town-group {
-  border-bottom: 1px solid #d8d6cd;
-}
-.town-group summary {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  min-height: 64px;
-  padding: 12px 8px;
-  list-style: none;
-  cursor: pointer;
-}
-.town-group summary::-webkit-details-marker {
-  display: none;
-}
-.town-group summary:hover {
-  background: #ede9de;
-}
-.town-group-letter {
-  font: 700 26px/1 var(--display);
-}
-.town-group-count {
-  margin-left: auto;
-  font-size: 12px;
-  color: #56626a;
-}
-.town-expand {
-  font-size: 0;
-  width: 25px;
-  text-align: center;
-}
-.town-expand::after {
-  content: "+";
-  font-size: 26px;
-  font-weight: 400;
-}
-.town-group[open] .town-expand::after {
-  content: "−";
-}
-.town-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  list-style: none;
-  padding: 0;
-  margin: 0 0 18px;
-  gap: 1px;
-  background: #deddd5;
-  border: 1px solid #deddd5;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.town-item {
-  min-width: 0;
-  padding: 16px 16px 8px;
-  background: #fffefa;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  overflow-wrap: anywhere;
-}
-.town-item strong {
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-}
-.town-postcode,
-.town-alias {
-  display: block;
-  font-size: 11px;
-  color: #59676c;
-  margin-top: 3px;
-}
-.town-route,
-.town-price,
-.town-delivery {
-  display: block;
-  font-size: 12px;
-  line-height: 1.7;
-  margin-top: 8px;
-}
-.town-route {
-  color: #59676c;
-}
-.town-price {
-  color: var(--ink);
-  font-weight: 600;
-  margin-top: 4px;
-}
-.town-delivery {
-  color: #59676c;
-  margin-top: 2px;
-}
-.town-rate {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  min-height: 44px;
-  font-size: 11px;
-  color: #59676c;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.town-rate.has-rate {
-  color: #765213;
-  font-weight: 600;
-}
-.town-rate:hover {
-  color: var(--ink);
-}
-.town-empty {
-  padding: 24px;
-  background: #fffefa;
-  border-radius: 8px;
-}
-.town-empty strong {
-  font-size: 16px;
-}
-.town-empty p {
-  font-size: 13px;
-  margin-top: 6px;
-}
-.town-empty .text-link {
-  color: #765213;
-  font-size: 16px;
-}
-.town-footnote {
-  font-size: 12px;
-  color: #56626a;
-  line-height: 1.8;
-  margin-top: 22px;
-}
-.town-attribution {
-  font-size: 10px;
-  color: #56626a;
-  margin-top: 12px;
-}
-.town-attribution a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.delivery-tariffs-heading {
-  margin-bottom: 20px;
-}
-.delivery-tariffs-heading h3 {
-  font: 700 30px/1.2 var(--display);
-  margin-bottom: 8px;
-}
-.delivery-tariffs-heading p {
-  color: #b1bec8;
-  font-size: 12px;
-}
-.zone-card:target {
-  outline: 2px solid var(--gold);
-  outline-offset: 4px;
-}
-@media (max-width: 900px) {
-  .town-directory {
-    padding: 26px;
-  }
-  .town-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (max-width: 600px) {
-  .town-directory {
-    padding: 20px 16px;
-  }
-  .town-heading {
-    align-items: flex-start;
-    gap: 12px;
-  }
-  .town-heading h3 {
-    font-size: 30px;
-  }
-  .town-radius {
-    padding: 12px 10px;
-  }
-  .town-radius strong {
-    font-size: 38px;
-  }
-  .town-radius strong span {
-    font-size: 21px;
-  }
-  .town-radius > span {
-    max-width: 67px;
-    font-size: 9px;
-    text-align: center;
-  }
-  .town-heading p:not(.eyebrow) {
-    font-size: 12px;
-  }
-  .town-list {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .town-item {
-    padding: 14px 16px 6px;
-  }
-  .town-rate {
-    font-size: 12px;
-  }
-  .town-search-field {
-    gap: 8px;
-    padding-left: 10px;
-  }
-  .town-search-field input {
-    font-size: 16px;
-  }
-  .town-search-field .icon {
-    width: 17px;
-    height: 17px;
-  }
-  .town-clear {
-    font-size: 11px;
-    padding-inline: 8px;
-  }
-  .town-empty {
-    padding: 18px;
-  }
-}
-.delivery-explainer {
-  display: flex;
-  align-items: center;
-  gap: 17px;
-  border: 1px solid #e9a83b36;
-  background: #e9a83b08;
-  padding: 19px 22px;
-  border-radius: 8px;
-  margin-bottom: 24px;
-}
-.delivery-explainer > .icon {
-  color: var(--gold);
-  width: 29px;
-  height: 29px;
-}
-.delivery-explainer p {
-  font-size: 11px;
-  line-height: 1.8;
-  color: #b1bec8;
-}
-.delivery-explainer p strong {
-  font-size: 12px;
-  color: var(--cream);
-  font-weight: 600;
-}
-.delivery-explainer-tag {
-  margin-left: auto;
-  color: var(--gold-light);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: 1.6px;
-}
-.zone-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  align-items: start;
-  gap: 16px;
-}
-.zone-card {
-  border: 1px solid #ffffff1c;
-  background: #0d2333;
-  border-radius: 9px;
-  padding: 21px 19px 17px;
-  display: flex;
-  flex-direction: column;
-}
-.zone-near {
-  border-color: #e9a83b7a;
-  background: #16282d;
-}
-.zone-extended {
-  border-color: #e9a83b70;
-  align-self: start;
-}
-.zone-extended .zone-number {
-  color: var(--gold-light);
-}
-.zone-communes {
-  border-top: 1px solid #ffffff1c;
-  margin-top: 18px;
-}
-.zone-communes summary {
-  padding: 14px 0;
-  min-height: 48px;
-  color: var(--gold-light);
-  font-size: 12px;
-  cursor: pointer;
-}
-.zone-communes summary:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.zone-town-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 6px 20px;
-  padding: 0 0 6px;
-  margin: 0;
-  list-style: none;
-  color: #c6d1d8;
-  font-size: 12px;
-  line-height: 1.8;
-}
-.zone-town-list li {
-  overflow-wrap: anywhere;
-}
-.zone-card:not(.zone-extended) .zone-town-list {
-  grid-template-columns: minmax(0, 1fr);
-}
-@media (min-width: 901px) {
-  .zone-card.zone-extended {
-    grid-column: span 2;
-  }
-}
-@media (max-width: 700px) {
-  .zone-town-list {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-.zone-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 22px;
-}
-.zone-number {
-  color: #627787;
-  font: 700 23px/1 var(--display);
-}
-.zone-near .zone-number {
-  color: var(--gold);
-}
-.zone-time {
-  font-size: 9px;
-  border-radius: 4px;
-  padding: 3px 6px;
-  background: #ffffff05;
-  color: #bfccd6;
-  white-space: nowrap;
-}
-.zone-time .icon {
-  width: 11px;
-  height: 11px;
-  margin-right: 3px;
-}
-.zone-card h4 {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.55;
-  min-height: 45px;
-  margin-bottom: 20px;
-}
-.zone-card dl {
-  margin: 0;
-  margin-top: auto;
-}
-.zone-card .zone-minimum-order {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding-bottom: 14px;
-}
-.zone-card dt {
-  font-size: 9px;
-  color: #adbec9;
-}
-.zone-card dd {
-  margin: 0;
-}
-.zone-card .zone-minimum-order dd {
-  font: 700 37px/1 var(--display);
-  color: var(--gold-light);
-  white-space: nowrap;
-}
-.zone-card .zone-minimum-order dd span {
-  font-size: 23px;
-}
-.zone-card .zone-paid-delivery {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  border-top: 1px solid #ffffff13;
-  padding-top: 13px;
-}
-.zone-card .zone-paid-delivery dd {
-  font-size: 10px;
-  white-space: nowrap;
-}
-.zone-card .zone-paid-delivery dd span {
-  font-size: 8px;
-  color: #9aacb8;
-}
-.zone-card .zone-minimum-order dt span {
-  display: inline-block;
-  margin-top: 4px;
-  font-size: 10px;
-}
-.zone-card .zone-free-delivery {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  border-top: 1px solid #ffffff13;
-  margin-top: 14px;
-  padding-top: 14px;
-}
-.zone-card .zone-free-delivery dt {
-  font-size: 12px;
-  color: #d3e5d1;
-}
-.zone-card .zone-free-delivery dd {
-  font: 700 28px/1 var(--display);
-  color: #d3e5d1;
-  white-space: nowrap;
-}
-.zone-card .zone-free-delivery dd span {
-  font-size: 18px;
-}
-.delivery-note {
-  font-size: 10px;
-  color: #9badba;
-  margin: 17px 0 28px;
 }
 .pickup-banner {
   display: flex;
@@ -1639,12 +1071,16 @@ button:focus-visible {
   border-radius: 8px;
   flex-shrink: 0;
 }
+.pickup-banner > div:nth-child(2) {
+  min-width: 0;
+}
 .pickup-banner h3 {
+  overflow-wrap: anywhere;
   font: 700 23px/1.2 var(--display);
   margin-bottom: 5px;
 }
 .pickup-banner p {
-  font-size: 11px;
+  font-size: 13px;
   color: #b2c0ca;
 }
 .pickup-banner p strong {
@@ -1980,26 +1416,6 @@ button:focus-visible {
   .soft-grid .product-image {
     height: 190px;
   }
-  .zone-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-  }
-  .zone-card {
-    padding: 17px 13px;
-  }
-  .zone-card h4 {
-    font-size: 12px;
-  }
-  .zone-card .zone-paid-delivery {
-    flex-wrap: wrap;
-    gap: 3px;
-  }
-  .zone-time {
-    font-size: 8px;
-  }
-  .zone-number {
-    font-size: 20px;
-  }
   .contact-inner {
     gap: 70px;
   }
@@ -2175,34 +1591,7 @@ button:focus-visible {
   .accessory-grid .product-variant {
     min-height: 31px;
   }
-  .zone-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 15px;
-  }
-  .zone-card {
-    padding: 22px;
-  }
-  .zone-card h4 {
-    font-size: 15px;
-    min-height: 25px;
-    margin-bottom: 24px;
-  }
-  .zone-time {
-    font-size: 10px;
-  }
-  .zone-number {
-    font-size: 24px;
-  }
-  .zone-card dt {
-    font-size: 10px;
-  }
-  .zone-card .zone-paid-delivery dd {
-    font-size: 12px;
-  }
-  .zone-card .zone-paid-delivery dd span {
-    font-size: 9px;
-  }
-  .delivery-section {
+  .pickup-section {
     padding-top: 60px;
   }
   .pickup-banner {
@@ -2697,84 +2086,11 @@ button:focus-visible {
     justify-content: space-between;
     font-size: 29px;
   }
-  .delivery-section {
+  .pickup-section {
     padding-block: 45px;
   }
-  .delivery-section .section-intro {
+  .pickup-section .section-intro {
     margin-bottom: 24px;
-  }
-  .delivery-intro {
-    margin-top: 18px;
-  }
-  .delivery-intro p {
-    font-size: 12px;
-  }
-  .delivery-intro p br {
-    display: none;
-  }
-  .text-link {
-    font-size: 10px;
-    margin-top: 10px;
-  }
-  .delivery-explainer {
-    padding: 16px 14px;
-    gap: 12px;
-    margin-bottom: 17px;
-  }
-  .delivery-explainer > .icon {
-    width: 25px;
-    height: 25px;
-  }
-  .delivery-explainer p {
-    font-size: 10px;
-    line-height: 1.8;
-  }
-  .delivery-explainer p strong {
-    font-size: 11px;
-  }
-  .delivery-explainer-tag {
-    display: none;
-  }
-  .zone-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-  .zone-card {
-    padding: 19px 20px;
-  }
-  .zone-top {
-    margin-bottom: 15px;
-  }
-  .zone-number {
-    font-size: 24px;
-  }
-  .zone-time {
-    font-size: 10px;
-  }
-  .zone-card h4 {
-    font-size: 15px;
-    margin-bottom: 16px;
-    min-height: initial;
-  }
-  .zone-card dt {
-    font-size: 10px;
-  }
-  .zone-card .zone-minimum-order {
-    padding-bottom: 13px;
-  }
-  .zone-card .zone-minimum-order dd {
-    font-size: 37px;
-  }
-  .zone-card .zone-paid-delivery {
-    padding-top: 12px;
-  }
-  .zone-card .zone-paid-delivery dd {
-    font-size: 11px;
-  }
-  .delivery-note {
-    font-size: 9px;
-    margin-block: 16px 24px;
-    line-height: 1.8;
   }
   .pickup-banner {
     padding: 20px 17px;
@@ -2791,14 +2107,15 @@ button:focus-visible {
     height: 22px;
   }
   .pickup-banner > div:nth-child(2) {
-    width: calc(100% - 48px);
+    flex: 1;
+    width: auto;
   }
   .pickup-banner h3 {
     font-size: 21px;
     margin-bottom: 7px;
   }
   .pickup-banner p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .pickup-banner p strong {
@@ -3050,23 +2367,6 @@ button:focus-visible {
   .soft-grid .product-price {
     font-size: 18px;
   }
-  .zone-card dt {
-    font-size: 12px;
-  }
-  .zone-card .zone-paid-delivery dd {
-    font-size: 13px;
-  }
-  .zone-card .zone-paid-delivery dd span {
-    font-size: 11px;
-  }
-  .zone-time {
-    font-size: 12px;
-  }
-  .delivery-explainer p,
-  .delivery-explainer p strong {
-    font-size: 12px;
-  }
-  .delivery-note,
   .catalogue-note {
     font-size: 11px;
   }
@@ -3137,8 +2437,7 @@ button:focus-visible {
   }
   .hero,
   .service-card,
-  .delivery-section,
-  .zone-card,
+  .pickup-section,
   .site-footer {
     color: black;
     background: white;
@@ -3154,9 +2453,6 @@ button:focus-visible {
   .hero-description,
   .service-card p,
   .service-card p strong,
-  .delivery-intro p,
-  .zone-card dt,
-  .zone-card dd,
   .alcohol-warning p {
     color: black !important;
   }
@@ -3164,7 +2460,7 @@ button:focus-visible {
     padding-block: 20px;
   }
   .catalogue,
-  .delivery-section {
+  .pickup-section {
     padding-block: 20px;
   }
   .product-grid,
@@ -3177,7 +2473,7 @@ button:focus-visible {
     padding: 10px;
   }
   .product-card,
-  .zone-card {
+  .pickup-banner {
     break-inside: avoid;
   }
   .product-category[hidden] {
@@ -3186,11 +2482,24 @@ button:focus-visible {
   .section-title {
     font-size: 36px;
   }
-  .zone-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .footer-main,
   .footer-bottom {
+    display: none;
+  }
+  .pickup-banner {
+    background: white;
+    color: black;
+    border-color: #bbb;
+  }
+  .pickup-section .eyebrow,
+  .pickup-section .gold-dot,
+  .pickup-section .section-intro > p,
+  .pickup-banner p,
+  .pickup-banner p strong,
+  .pickup-banner-icon {
+    color: black;
+  }
+  .pickup-banner .button {
     display: none;
   }
   .site-footer {
